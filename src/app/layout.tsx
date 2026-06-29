@@ -1,20 +1,25 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
+import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "Việt License - License Microsoft chính hãng, VAT cho cá nhân & SME",
+  description:
+    "Mua Windows, Office và Microsoft 365 chính hãng tại Việt License. Tư vấn đúng license, chuẩn hóa hồ sơ VAT cho cá nhân và SME, hỗ trợ nhanh qua Zalo.",
+  openGraph: {
+    title:
+      "Việt License - License Microsoft chính hãng, VAT cho cá nhân & SME",
+    description:
+      "Mua Windows, Office và Microsoft 365 chính hãng tại Việt License. Tư vấn đúng license, chuẩn hóa hồ sơ VAT cho cá nhân và SME, hỗ trợ nhanh qua Zalo.",
+    images: ["/assets/img/meta-banner.png"],
+  },
 };
 
 export default function RootLayout({
@@ -24,10 +29,14 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      lang="vi"
+      className={`${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-background text-foreground">
+        <SiteHeader />
+        {children}
+        <SiteFooter />
+      </body>
     </html>
   );
 }
