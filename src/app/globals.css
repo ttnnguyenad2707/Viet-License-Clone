@@ -150,3 +150,7 @@
     text-wrap: balance;
   }
 }
+ 
+body {
+  scroll-behavior: smooth;
+}

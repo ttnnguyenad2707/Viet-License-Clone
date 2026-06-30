@@ -406,7 +406,6 @@ const faqItems: FAQItem[] = [
 export default function Home() {
   return (
     <>
-      <SiteHeader />
       <main>
         <HeroSection />
         <ProductSection products={products} />
@@ -420,7 +419,6 @@ export default function Home() {
           href="/kiem-tra-rui-ro-ban-quyen-windows"
         />
       </main>
-      <SiteFooter />
     </>
   );
 }

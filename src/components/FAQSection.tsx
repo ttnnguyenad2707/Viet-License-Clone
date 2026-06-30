@@ -12,7 +12,7 @@ export function FAQSection({ items }: FAQSectionProps) {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="sec faq py-16">
+    <section className="sec faq py-16" id="faq">
       <div className="mx-auto max-w-[1440px] px-4">
         <div className="sec-head flex flex-col items-center text-center">
           <p className="eyebrow mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">Câu hỏi thường gặp</p>

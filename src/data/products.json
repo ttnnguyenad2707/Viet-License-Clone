@@ -1,0 +1,427 @@
+{
+  "$schema": "./product-data-schema.json",
+  "products": [
+    {
+      "id": "windows-1011-home-pro-fpp-usb-fullbox",
+      "slug": "windows-10-11-home-pro-fpp-usb-fullbox",
+      "name": "Windows 10/11 Home/Pro - FPP USB Fullbox",
+      "category": "Windows",
+      "subcategory": "Windows 10/11",
+      "shortDescription": "Phù hợp chuyển máy Windows đang crack hoặc kích hoạt không rõ nguồn gốc sang license FPP rõ ràng.",
+      "price": {
+        "retail": 2650000,
+        "retailLabel": "2.650.000đ",
+        "bulk": 2550000,
+        "bulkLabel": "2.550.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        { "label": "Sản phẩm chính hãng", "variant": "default" },
+        { "label": "Best seller", "variant": "primary" },
+        { "label": "Fullbox", "variant": "default" },
+        { "label": "USB", "variant": "default" },
+        { "label": "FPP", "variant": "default" }
+      ],
+      "images": [
+        {
+          "src": "/images/products/windows-1011-home-pro-fpp-usb-fullbox/box-front.webp",
+          "alt": "Hộp Windows 11 Pro FPP/USB thực tế",
+          "caption": "Hộp Windows 11 Pro FPP/USB thực tế"
+        },
+        {
+          "src": "/images/products/windows-1011-home-pro-fpp-usb-fullbox/box-back.webp",
+          "alt": "Mặt sau hộp Windows 11 Pro FPP/USB thực tế",
+          "caption": "Mặt sau hộp Windows 11 Pro FPP/USB thực tế"
+        }
+      ],
+      "thumbnail": "/images/products/windows-1011-home-pro-fpp-usb-fullbox/thumbnail.webp",
+      "licenseType": "FPP (Full Packaged Product) / Retail",
+      "activationType": "Khóa kích hoạt (Product Key) — FPP Key",
+      "deliveryType": {
+        "form": "Fullbox",
+        "physicalItems": [
+          "1 x Box Windows chính hãng",
+          "1 x USB cài đặt Windows 10/11",
+          "1 x Key/license FPP đúng phiên bản Home/Pro",
+          "1 x Hướng dẫn kích hoạt"
+        ],
+        "digitalItems": ["1 x Hóa đơn VAT nếu yêu cầu"],
+        "notes": [
+          "DVD Fullbox phù hợp máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+          "FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro.",
+          "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+          "Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": true,
+        "transferNote": "Có thể chuyển máy. Nên cách nhau tối thiểu 90 ngày giữa các lần chuyển."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": ["Zalo", "Hotline", "Facebook", "Email"],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Máy đang dùng Windows crack hoặc kích hoạt không rõ nguồn gốc cần chuyển sang bản quyền.",
+        "Khách cần USB cài đặt tiện lợi và hình thức FPP rõ ràng.",
+        "Doanh nghiệp cần bàn giao có hộp, chứng từ và giảm rủi ro audit.",
+        "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "USB cài đặt Windows 10/11"
+        },
+        {
+          "icon": "check",
+          "text": "Có thể chuyển máy (FPP/Retail)"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "DVD Fullbox phù hợp máy mới hoặc máy cần cài Windows hoàn toàn từ đầu. FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro. License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+          "bullets": [
+            "DVD Fullbox phù hợp máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+            "FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro.",
+            "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+            "Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            { "label": "Nhóm sản phẩm", "value": "Windows" },
+            { "label": "Phiên bản", "value": "Windows 10/11 Home/Pro" },
+            { "label": "Hình thức", "value": "USB · Fullbox · FPP" },
+            { "label": "Tình trạng", "value": "Còn hàng · Chính hãng Microsoft" },
+            { "label": "Hạn sử dụng", "value": "vĩnh viễn" },
+            { "label": "Đổi máy", "value": "OK" },
+            { "label": "Hóa đơn", "value": "Xuất VAT đầy đủ theo yêu cầu" }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Máy đang dùng Windows crack hoặc kích hoạt không rõ nguồn gốc cần chuyển sang bản quyền.",
+            "Khách cần USB cài đặt tiện lợi và hình thức FPP rõ ràng.",
+            "Doanh nghiệp cần bàn giao có hộp, chứng từ và giảm rủi ro audit.",
+            "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên để tối thiểu 90 ngày giữa các lần chuyển để giảm rủi ro lỗi kích hoạt."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Box Windows chính hãng",
+            "1 x USB cài đặt Windows 10/11",
+            "1 x Key/license FPP đúng phiên bản Home/Pro",
+            "1 x Hướng dẫn kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        { "label": "Nhóm sản phẩm", "value": "Windows" },
+        { "label": "Phiên bản", "value": "Windows 10/11 Home/Pro" },
+        { "label": "Hình thức", "value": "USB · Fullbox · FPP" },
+        { "label": "Tình trạng", "value": "Còn hàng · Chính hãng Microsoft" },
+        { "label": "Hạn sử dụng", "value": "vĩnh viễn" },
+        { "label": "Đổi máy", "value": "OK" },
+        { "label": "Hóa đơn", "value": "Xuất VAT đầy đủ theo yêu cầu" }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "windows-1011-home-pro-dvd-fullbox",
+        "windows-1011-home-pro-fpp-no-box",
+        "windows-server-2016-2019",
+        "sql-server-2019-2022"
+      ],
+      "seo": {
+        "title": "Windows 10/11 Home/Pro - FPP USB Fullbox | Việt License",
+        "description": "Mua Windows 10/11 Home/Pro FPP USB Fullbox chính hãng. License rõ ràng, chuyển máy được, xuất VAT đầy đủ. Hỗ trợ kích hoạt qua Zalo.",
+        "keywords": "Windows 10/11 Home Pro FPP USB, bản quyền Windows USB, license FPP Windows, Windows OEM"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          { "channel": "zalo", "name": "Thành Nguyễn - VietLicense", "href": "https://zalo.me/0382520281" },
+          { "channel": "facebook", "name": "Việt License - Oliu Group", "href": "https://facebook.com/vietlicense" },
+          { "channel": "phone", "name": "Hotline: 0382 520 281", "href": "tel:0382520281" }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      }
+    },
+    {
+      "id": "office-2021-pro-plus-fullbox",
+      "slug": "office-2021-pro-plus-fullbox",
+      "name": "Office 2021 Pro Plus - Fullbox",
+      "category": "Office",
+      "subcategory": "Office 2021",
+      "shortDescription": "Bản Fullbox dùng cho 1 máy, có hộp lưu hồ sơ và phù hợp khách cần Office 2021.",
+      "price": {
+        "retail": 2650000,
+        "retailLabel": "2.650.000đ",
+        "bulk": 2550000,
+        "bulkLabel": "2.550.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        { "label": "Sản phẩm chính hãng", "variant": "default" },
+        { "label": "Fullbox", "variant": "default" }
+      ],
+      "images": [
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-front.webp",
+          "alt": "Hộp Office 2021 Pro Plus thực tế",
+          "caption": "Hộp Office 2021 Pro Plus thực tế"
+        },
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-inside.webp",
+          "alt": "Bên trong hộp Office 2021 Pro Plus thực tế",
+          "caption": "Bên trong hộp Office 2021 Pro Plus thực tế"
+        },
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-lot.webp",
+          "alt": "Lô hộp Office 2021 Pro Plus thực tế, mã định danh đã che",
+          "caption": "Lô hộp Office 2021 Pro Plus thực tế, mã định danh đã che"
+        },
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-carton.webp",
+          "alt": "Thùng Office 2021 Pro Plus thực tế, mã định danh đã che",
+          "caption": "Thùng Office 2021 Pro Plus thực tế, mã định danh đã che"
+        },
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-multiple.webp",
+          "alt": "Nhiều hộp Office 2021 Pro Plus thực tế, mã định danh đã che",
+          "caption": "Nhiều hộp Office 2021 Pro Plus thực tế, mã định danh đã che"
+        }
+      ],
+      "thumbnail": "/images/products/office-2021-pro-plus-fullbox/thumbnail.webp",
+      "licenseType": "FPP (Full Packaged Product) / Retail",
+      "activationType": "Khóa kích hoạt (Product Key) — FPP Key",
+      "deliveryType": {
+        "form": "Fullbox",
+        "physicalItems": [
+          "1 x Box Office chính hãng",
+          "1 x Key/license Office 2021 Pro Plus",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn cài đặt và kích hoạt"
+        ],
+        "digitalItems": [
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Bản Fullbox dùng cho 1 máy, có hộp lưu hồ sơ và phù hợp khách cần Office 2021.",
+          "Bản key thường dùng cho 1 máy và không đổi sang máy khác; phù hợp khi đã xác định rõ máy cần cài."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": false,
+        "transferNote": "Không đổi máy"
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": ["Zalo", "Hotline", "Facebook", "Email"],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Khách muốn bộ Office mới hơn Office 2019.",
+        "Cần hộp để lưu hồ sơ.",
+        "Doanh nghiệp cần chứng từ và hồ sơ license rõ ràng.",
+        "Bản key thường dùng cho 1 máy và không đổi sang máy khác; phù hợp khi đã xác định rõ máy cần cài."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Có hộp lưu hồ sơ"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            { "label": "Nhóm sản phẩm", "value": "Office" },
+            { "label": "Phiên bản", "value": "Office 2021 Professional Plus" },
+            { "label": "Hình thức", "value": "Fullbox" },
+            { "label": "Tình trạng", "value": "Còn hàng · Chính hãng Microsoft" },
+            { "label": "Hạn sử dụng", "value": "vĩnh viễn" },
+            { "label": "Đổi máy", "value": "Không" },
+            { "label": "Hóa đơn", "value": "Xuất VAT đầy đủ theo yêu cầu" }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Khách muốn bộ Office mới hơn Office 2019.",
+            "Cần hộp để lưu hồ sơ.",
+            "Doanh nghiệp cần chứng từ và hồ sơ license rõ ràng.",
+            "Bản key thường dùng cho 1 máy và không đổi sang máy khác; phù hợp khi đã xác định rõ máy cần cài."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Box Office chính hãng",
+            "1 x Key/license Office 2021 Pro Plus",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        { "label": "Nhóm sản phẩm", "value": "Office" },
+        { "label": "Phiên bản", "value": "Office 2021 Professional Plus" },
+        { "label": "Hình thức", "value": "Fullbox" },
+        { "label": "Tình trạng", "value": "Còn hàng · Chính hãng Microsoft" },
+        { "label": "Hạn sử dụng", "value": "vĩnh viễn" },
+        { "label": "Đổi máy", "value": "Không" },
+        { "label": "Hóa đơn", "value": "Xuất VAT đầy đủ theo yêu cầu" }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "office-2021-pro-plus-bind-account-fullbox",
+        "office-2021-pro-plus-no-box",
+        "office-2021-pro-plus-bind-account-no-box",
+        "office-2019-pro-plus-fullbox"
+      ],
+      "seo": {
+        "title": "Office 2021 Pro Plus - Fullbox | Việt License",
+        "description": "Mua Office 2021 Pro Plus Fullbox chính hãng. License rõ ràng, có hộp lưu hồ sơ, xuất VAT đầy đủ. Hỗ trợ kích hoạt qua Zalo.",
+        "keywords": "Office 2021 Pro Plus Fullbox, mua Office 2021, bản quyền Office 2021, license Office 2021"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          { "channel": "zalo", "name": "Thành Nguyễn - VietLicense", "href": "https://zalo.me/0382520281" },
+          { "channel": "facebook", "name": "Việt License - Oliu Group", "href": "https://facebook.com/vietlicense" },
+          { "channel": "phone", "name": "Hotline: 0382 520 281", "href": "tel:0382520281" }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      }
+    }
+  ]
+}

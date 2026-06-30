@@ -35,7 +35,7 @@ export function SiteHeader() {
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
-          <Link href="/faq" className="navlink text-sm font-medium text-[#4a525c]">
+          <Link href="/#faq" className="navlink text-sm font-medium text-[#4a525c]">
             FAQ
           </Link>
           <Link
