@@ -14,6 +14,7 @@ export function getAllSlugs(): string[] {
 }
 
 export function getRelatedProducts(slugs: string[]): Product[] {
+  if(!slugs || slugs?.length === 0) return [];
   return slugs
     .map((slug) => getProduct(slug))
     .filter((p): p is Product => p !== undefined);

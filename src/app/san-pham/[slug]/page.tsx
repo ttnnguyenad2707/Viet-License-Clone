@@ -13,8 +13,6 @@ import { PDPFAQ } from "@/components/pdp/PDPFAQ";
 import { PDPRelatedProducts } from "@/components/pdp/PDPRelatedProducts";
 import { PDPContactBand } from "@/components/pdp/PDPContactBand";
 import { PDPSection } from "@/components/pdp/PDPSection";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -41,7 +39,7 @@ export default async function ProductPage({ params }: PageProps) {
   const product = getProduct(slug);
   if (!product) notFound();
 
-  const relatedProducts = getRelatedProducts(product.relatedProductSlugs);
+  const relatedProducts = getRelatedProducts(product?.relatedProductSlugs);
 
   const breadcrumbItems = [
     { label: product.category, href: `/${product.category.toLowerCase()}` },
@@ -50,7 +48,6 @@ export default async function ProductPage({ params }: PageProps) {
 
   return (
     <>
-      <SiteHeader />
 
       <main className="min-h-screen pt-[74.8px]">
         {/* Product hero */}
@@ -164,7 +161,6 @@ export default async function ProductPage({ params }: PageProps) {
         <PDPRelatedProducts products={relatedProducts} />
       </main>
 
-      <SiteFooter />
     </>
   );
 }

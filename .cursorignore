@@ -1,0 +1,15 @@
+node_modules/
+.git/
+dist/
+build/
+.next/
+.amazonq/
+.augment/
+.claude/
+.codex/
+.continue/
+.gemini/
+.github/
+.opencode/   
+.vscode/
+.windsurf/

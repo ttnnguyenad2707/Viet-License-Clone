@@ -1,0 +1,68 @@
+{
+  "id": "",
+  "slug": "",
+  "name": "",
+  "category": "",
+  "subcategory": "",
+  "shortDescription": "",
+  "price": {
+    "retail": null,
+    "retailLabel": "",
+    "bulk": null,
+    "bulkLabel": "",
+    "bulkMinQty": null,
+    "bulkNote": "",
+    "vatNote": "",
+    "largeQtyNote": ""
+  },
+  "currency": "",
+  "badges": [],
+  "images": [],
+  "thumbnail": "",
+  "licenseType": "",
+  "activationType": "",
+  "deliveryType": {
+    "form": "",
+    "physicalItems": [],
+    "digitalItems": [],
+    "notes": []
+  },
+  "warranty": {
+    "duration": "",
+    "transferable": null,
+    "transferNote": ""
+  },
+  "support": {
+    "installGuide": null,
+    "activationHelp": null,
+    "upgradeConsult": null,
+    "channels": [],
+    "details": []
+  },
+  "suitableFor": [],
+  "highlights": [],
+  "descriptionSections": [],
+  "specifications": [],
+  "faqs": [],
+  "relatedProductSlugs": [],
+  "seo": {
+    "title": "",
+    "description": "",
+    "keywords": ""
+  },
+  "cta": {
+    "primary": {
+      "label": "",
+      "href": "",
+      "channel": ""
+    },
+    "secondary": {
+      "label": "",
+      "href": "",
+      "channel": ""
+    },
+    "contacts": [],
+    "trustBadges": []
+  },
+  "displayOrder": null
+}

@@ -1,0 +1,208 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Product Data",
+  "type": "object",
+  "properties": {
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "slug": { "type": "string" },
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "subcategory": { "type": "string" },
+          "shortDescription": { "type": "string" },
+          "price": {
+            "type": "object",
+            "properties": {
+              "retail": { "type": ["number", "null"] },
+              "retailLabel": { "type": "string" },
+              "bulk": { "type": ["number", "null"] },
+              "bulkLabel": { "type": "string" },
+              "bulkMinQty": { "type": "number" },
+              "bulkNote": { "type": "string" },
+              "vatNote": { "type": "string" },
+              "largeQtyNote": { "type": "string" }
+            },
+            "required": ["retail", "retailLabel", "bulk", "bulkLabel", "bulkMinQty", "bulkNote", "vatNote", "largeQtyNote"]
+          },
+          "currency": { "type": "string" },
+          "badges": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": { "type": "string" },
+                "variant": { "type": "string" }
+              },
+              "required": ["label", "variant"]
+            }
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "src": { "type": "string" },
+                "alt": { "type": "string" },
+                "caption": { "type": "string" }
+              },
+              "required": ["src", "alt"]
+            }
+          },
+          "thumbnail": { "type": "string" },
+          "licenseType": { "type": "string" },
+          "activationType": { "type": "string" },
+          "deliveryType": {
+            "type": "object",
+            "properties": {
+              "form": { "type": "string" },
+              "physicalItems": { "type": "array", "items": { "type": "string" } },
+              "digitalItems": { "type": "array", "items": { "type": "string" } },
+              "notes": { "type": "array", "items": { "type": "string" } }
+            },
+            "required": ["form", "physicalItems", "digitalItems", "notes"]
+          },
+          "warranty": {
+            "type": "object",
+            "properties": {
+              "duration": { "type": "string" },
+              "transferable": { "type": "boolean" },
+              "transferNote": { "type": "string" }
+            },
+            "required": ["duration", "transferable", "transferNote"]
+          },
+          "support": {
+            "type": "object",
+            "properties": {
+              "installGuide": { "type": "boolean" },
+              "activationHelp": { "type": "boolean" },
+              "upgradeConsult": { "type": "boolean" },
+              "channels": { "type": "array", "items": { "type": "string" } },
+              "details": { "type": "array", "items": { "type": "string" } }
+            },
+            "required": ["installGuide", "activationHelp", "upgradeConsult", "channels", "details"]
+          },
+          "suitableFor": { "type": "array", "items": { "type": "string" } },
+          "highlights": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "icon": { "type": "string" },
+                "text": { "type": "string" }
+              },
+              "required": ["icon", "text"]
+            }
+          },
+          "descriptionSections": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "title": { "type": "string" },
+                "content": { "type": "string" },
+                "bullets": { "type": "array", "items": { "type": "string" } },
+                "specTable": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "label": { "type": "string" },
+                      "value": { "type": "string" }
+                    },
+                    "required": ["label", "value"]
+                  }
+                }
+              },
+              "required": ["title"]
+            }
+          },
+          "specifications": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": { "type": "string" },
+                "value": { "type": "string" }
+              },
+              "required": ["label", "value"]
+            }
+          },
+          "faqs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "question": { "type": "string" },
+                "answer": { "type": "string" }
+              },
+              "required": ["question", "answer"]
+            }
+          },
+          "relatedProductSlugs": { "type": "array", "items": { "type": "string" } },
+          "seo": {
+            "type": "object",
+            "properties": {
+              "title": { "type": "string" },
+              "description": { "type": "string" },
+              "keywords": { "type": "string" }
+            },
+            "required": ["title", "description", "keywords"]
+          },
+          "cta": {
+            "type": "object",
+            "properties": {
+              "primary": {
+                "type": "object",
+                "properties": {
+                  "label": { "type": "string" },
+                  "href": { "type": "string" },
+                  "channel": { "type": "string" }
+                },
+                "required": ["label", "href", "channel"]
+              },
+              "secondary": {
+                "type": "object",
+                "properties": {
+                  "label": { "type": "string" },
+                  "href": { "type": "string" },
+                  "channel": { "type": "string" }
+                },
+                "required": ["label", "href", "channel"]
+              },
+              "contacts": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "channel": { "type": "string" },
+                    "name": { "type": "string" },
+                    "href": { "type": "string" }
+                  },
+                  "required": ["channel", "name", "href"]
+                }
+              },
+              "trustBadges": { "type": "array", "items": { "type": "string" } }
+            },
+            "required": ["primary", "secondary", "contacts", "trustBadges"]
+          },
+          "availability": { "type": "string" },
+          "listForm": { "type": "string" },
+          "listPills": { "type": "array", "items": { "type": "string" } },
+          "listIncludes": { "type": "array", "items": { "type": "string" } },
+          "listRetailLabel": { "type": "string" },
+          "listRetailValue": { "type": "string" },
+          "listBulkLabel": { "type": "string" },
+          "listBulkValue": { "type": "string" },
+          "isFeatured": { "type": "boolean" },
+          "displayOrder": { "type": "number" }
+        },
+        "required": ["id", "slug", "name", "category", "subcategory", "shortDescription", "price", "currency", "badges", "images", "thumbnail", "licenseType", "activationType", "deliveryType", "warranty", "support", "suitableFor", "highlights", "descriptionSections", "specifications", "faqs", "relatedProductSlugs", "seo", "cta", "availability", "listForm", "listPills", "listIncludes", "listRetailLabel", "listRetailValue", "listBulkLabel", "listBulkValue", "isFeatured", "displayOrder"]
+      }
+    }
+  },
+  "required": ["products"]
+}
