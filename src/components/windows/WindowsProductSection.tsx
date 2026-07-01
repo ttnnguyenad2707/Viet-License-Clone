@@ -67,7 +67,6 @@ export function WindowsProductSection({ products }: WindowsProductSectionProps) 
               key={product.slug}
               className="card flex flex-col rounded-[18px] border border-border bg-white text-foreground"
             >
-              <Link href={product.href} className="absolute inset-0 z-10" aria-label={`Xem chi tiết ${product.name}`} />
               <div className="thumb relative h-64 w-full overflow-hidden">
                 <div className="pills absolute left-4 top-4 flex flex-wrap gap-2">
                   {product.pills.map((pill) => (

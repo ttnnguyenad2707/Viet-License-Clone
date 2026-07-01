@@ -1,27 +1,23 @@
-export type BadgeVariant = "default" | "primary" | "success" | "warning" | "danger";
-
-export type ContactChannel = "zalo" | "facebook" | "phone" | "email";
+export interface ProductPrice {
+  retail: number | null;
+  retailLabel: string;
+  bulk: number | null;
+  bulkLabel: string;
+  bulkMinQty: number | null;
+  bulkNote: string;
+  vatNote: string;
+  largeQtyNote: string;
+}
 
 export interface ProductBadge {
   label: string;
-  variant: BadgeVariant;
+  variant: string;
 }
 
 export interface ProductImage {
   src: string;
   alt: string;
-  caption?: string;
-}
-
-export interface PriceInfo {
-  retail: number | null;
-  retailLabel: string;
-  bulk: number | null;
-  bulkLabel: string;
-  bulkMinQty: number;
-  bulkNote: string;
-  vatNote: string;
-  largeQtyNote: string;
+  caption: string;
 }
 
 export interface DeliveryType {
@@ -31,16 +27,16 @@ export interface DeliveryType {
   notes: string[];
 }
 
-export interface WarrantyInfo {
+export interface Warranty {
   duration: string;
-  transferable: boolean;
+  transferable: boolean | null;
   transferNote: string;
 }
 
-export interface SupportInfo {
-  installGuide: boolean;
-  activationHelp: boolean;
-  upgradeConsult: boolean;
+export interface Support {
+  installGuide: boolean | null;
+  activationHelp: boolean | null;
+  upgradeConsult: boolean | null;
   channels: string[];
   details: string[];
 }
@@ -50,45 +46,50 @@ export interface Highlight {
   text: string;
 }
 
-export interface DescriptionSection {
-  title: string;
-  content: string;
-  bullets?: string[];
-  specTable?: SpecRow[];
-}
-
-export interface SpecRow {
+export interface SpecTableItem {
   label: string;
   value: string;
 }
 
-export interface ProductFAQ {
+export interface DescriptionSection {
+  title: string;
+  content: string;
+  bullets?: string[];
+  specTable?: SpecTableItem[];
+}
+
+export interface Specification {
+  label: string;
+  value: string;
+}
+
+export interface Faq {
   question: string;
   answer: string;
 }
 
-export interface ProductSEO {
+export interface Seo {
   title: string;
   description: string;
   keywords: string;
 }
 
-export interface CTAContact {
-  channel: ContactChannel;
+export interface CtaButton {
+  label: string;
+  href: string;
+  channel: string;
+}
+
+export interface CtaContact {
+  channel: string;
   name: string;
   href: string;
 }
 
-export interface CTAButton {
-  label: string;
-  href: string;
-  channel: ContactChannel;
-}
-
-export interface ProductCTA {
-  primary: CTAButton;
-  secondary: CTAButton;
-  contacts: CTAContact[];
+export interface Cta {
+  primary: CtaButton;
+  secondary: CtaButton;
+  contacts: CtaContact[];
   trustBadges: string[];
 }
 
@@ -99,7 +100,8 @@ export interface Product {
   category: string;
   subcategory: string;
   shortDescription: string;
-  price: PriceInfo;
+  price: ProductPrice;
+  originalPrice: number | null;
   currency: string;
   badges: ProductBadge[];
   images: ProductImage[];
@@ -107,14 +109,21 @@ export interface Product {
   licenseType: string;
   activationType: string;
   deliveryType: DeliveryType;
-  warranty: WarrantyInfo;
-  support: SupportInfo;
+  warranty: Warranty;
+  support: Support;
   suitableFor: string[];
   highlights: Highlight[];
   descriptionSections: DescriptionSection[];
-  specifications: SpecRow[];
-  faqs: ProductFAQ[];
+  specifications: Specification[];
+  faqs: Faq[];
   relatedProductSlugs: string[];
-  seo: ProductSEO;
-  cta: ProductCTA;
+  seo: Seo;
+  cta: Cta;
+  isFeatured: boolean;
+  displayOrder: number | null;
+  listTitle: string;
+  listDescription: string;
+  cardBadges: string[];
+  createdAt?: Date;
+  updatedAt?: Date;
 }

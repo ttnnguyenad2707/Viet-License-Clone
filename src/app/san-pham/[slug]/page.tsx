@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getProduct, getAllSlugs, getRelatedProducts } from "@/data/product-utils";
+import { connectDB } from "@/lib/mongodb";
+import Product from "@/models/Product";
+import { IProduct } from "@/models/Product";
 
 import { PDPBreadcrumb } from "@/components/pdp/PDPBrearcrumb";
 import { PDPBadges } from "@/components/pdp/PDPBadges";
@@ -18,13 +20,22 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+export const dynamic = "force-dynamic";
+
+async function getProduct(slug: string): Promise<IProduct | null> {
+  await connectDB();
+  return Product.findOne({ slug }).lean() as Promise<IProduct | null>;
+}
+
+async function getRelatedProducts(slugs: string[]): Promise<IProduct[]> {
+  if (!slugs || slugs.length === 0) return [];
+  await connectDB();
+  return Product.find({ slug: { $in: slugs } }).lean() as Promise<IProduct[]>;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const product = await getProduct(slug);
   if (!product) return { title: "Sản phẩm không tìm thấy" };
 
   return {
@@ -36,10 +47,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ProductPage({ params }: PageProps) {
   const { slug } = await params;
-  const product = getProduct(slug);
+  const product = await getProduct(slug);
   if (!product) notFound();
 
-  const relatedProducts = getRelatedProducts(product?.relatedProductSlugs);
+  const relatedProducts = await getRelatedProducts(product.relatedProductSlugs);
 
   const breadcrumbItems = [
     { label: product.category, href: `/${product.category.toLowerCase()}` },

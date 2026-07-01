@@ -4,35 +4,11 @@ import { ContactChannels } from "@/components/ContactChannels";
 import { EvidenceSection } from "@/components/EvidenceSection";
 import { FAQSection } from "@/components/FAQSection";
 import { CTABand } from "@/components/CTABand";
-import type { Product, ContactOption, EvidenceAction, FAQItem } from "@/types/vietlicense";
-import productsData from "@/data/products.json";
+import { connectDB } from "@/lib/mongodb";
+import Product from "@/models/Product";
+import type { Product as ProductType, ContactOption, EvidenceAction, FAQItem } from "@/types/vietlicense";
 
-const homeProducts: Product[] = productsData.products
-  .filter((product) => product.isFeatured === true)
-  .sort((a, b) => {
-    const aOrder = typeof a.displayOrder === "number" ? a.displayOrder : Number.MAX_SAFE_INTEGER;
-    const bOrder = typeof b.displayOrder === "number" ? b.displayOrder : Number.MAX_SAFE_INTEGER;
-    if (aOrder !== bOrder) return aOrder - bOrder;
-    return a.name.localeCompare(b.name);
-  })
-  .map((product) => ({
-    slug: product.slug,
-    name: product.name,
-    group: product.category,
-    form: product.subcategory,
-    availability: "in_stock",
-    thumbnail: product.thumbnail || "",
-    pills: product.cardBadges || [],
-    price: {
-      retailLabel: product.price?.retailLabel || "",
-      retailValue: product.price?.retailValue || "",
-      bulkLabel: product.price?.bulkLabel,
-      bulkValue: product.price?.bulkValue,
-    },
-    includes: product.listDescription ? [product.listDescription] : [],
-    description: product.listDescription || "",
-    href: `/san-pham/${product.slug}`,
-  }));
+export const dynamic = "force-dynamic";
 
 const contactOptions: ContactOption[] = [
   { title: "Facebook Fanpage", subtitle: "Việt License - Oliu Group", href: "https://www.facebook.com/VietLicenseOliuGroup/", icon: "facebook" },
@@ -63,7 +39,35 @@ const faqItems: FAQItem[] = [
   },
 ];
 
-export default function Home() {
+async function getFeaturedProducts(): Promise<ProductType[]> {
+  await connectDB();
+  const products = await Product.find({ isFeatured: true })
+    .sort({ displayOrder: 1 })
+    .lean();
+
+  return products.map((product) => ({
+    slug: product.slug,
+    name: product.name,
+    group: product.category,
+    form: product.subcategory,
+    availability: "in_stock" as const,
+    thumbnail: product.thumbnail || "",
+    pills: product.cardBadges || [],
+    price: {
+      retailLabel: product.price?.retailLabel || "",
+      retailValue: String(product.price?.retail || ""),
+      bulkLabel: product.price?.bulkLabel,
+      bulkValue: product.price?.bulk ? String(product.price.bulk) : undefined,
+    },
+    includes: product.listDescription ? [product.listDescription] : [],
+    description: product.listDescription || "",
+    href: `/san-pham/${product.slug}`,
+  }));
+}
+
+export default async function Home() {
+  const homeProducts = await getFeaturedProducts();
+
   return (
     <>
       <main>
