@@ -7,6 +7,31 @@ function isValidObjectId(id: string): boolean {
   return mongoose.Types.ObjectId.isValid(id);
 }
 
+function normalizeProductBody(body: unknown): Record<string, unknown> {
+  const data = (body as Record<string, unknown>) || {};
+  const imageAssets = Array.isArray(data.imageAssets)
+    ? data.imageAssets
+        .filter((item): item is Record<string, unknown> => !!item && typeof item === "object")
+        .filter((item) => {
+          const url = typeof item.url === "string" ? item.url.trim() : "";
+          return Boolean(url);
+        })
+        .map((item) => ({
+          url: typeof item.url === "string" ? item.url.trim() : item.url,
+          publicId: typeof item.publicId === "string" ? item.publicId.trim() : item.publicId,
+          width: typeof item.width === "number" ? item.width : Number(item.width) || 0,
+          height: typeof item.height === "number" ? item.height : Number(item.height) || 0,
+          format: typeof item.format === "string" ? item.format.trim() : item.format,
+          alt: typeof item.alt === "string" ? item.alt.trim() : item.alt,
+        }))
+    : [];
+
+  return {
+    ...data,
+    imageAssets,
+  };
+}
+
 export async function GET(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
@@ -58,7 +83,7 @@ export async function PUT(
       );
     }
 
-    const body = await request.json();
+    const body = normalizeProductBody(await request.json());
 
     if (body.slug) {
       const existing = await Product.findOne({

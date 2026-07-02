@@ -20,6 +20,15 @@ export interface ProductImage {
   caption: string;
 }
 
+export interface ProductImageAsset {
+  url: string;
+  publicId: string;
+  width: number;
+  height: number;
+  format: string;
+  alt: string;
+}
+
 export interface DeliveryType {
   form: string;
   physicalItems: string[];
@@ -106,6 +115,8 @@ export interface Product {
   badges: ProductBadge[];
   images: ProductImage[];
   thumbnail: string;
+  cloudinaryImages?: string[];
+  imageAssets?: ProductImageAsset[];
   licenseType: string;
   activationType: string;
   deliveryType: DeliveryType;

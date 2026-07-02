@@ -105,6 +105,17 @@ const ProductSchema = new Schema<IProduct>(
       },
     ],
     thumbnail: { type: String, default: "" },
+    cloudinaryImages: [{ type: String }],
+    imageAssets: [
+      {
+        url: { type: String, required: true },
+        publicId: { type: String, default: "" },
+        width: { type: Number, default: 0 },
+        height: { type: Number, default: 0 },
+        format: { type: String, default: "" },
+        alt: { type: String, default: "" },
+      },
+    ],
     licenseType: { type: String, default: "" },
     activationType: { type: String, default: "" },
     deliveryType: {

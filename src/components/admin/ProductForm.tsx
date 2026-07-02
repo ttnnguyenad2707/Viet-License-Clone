@@ -11,21 +11,26 @@ interface ProductFormProps {
   productId?: string;
 }
 
+interface CloudinaryImageAsset {
+  url: string;
+  publicId: string;
+  width: number;
+  height: number;
+  format: string;
+  alt: string;
+}
+
+interface GalleryItem {
+  url: string;
+  alt: string;
+  caption: string;
+}
+
 function parseLines(value: string): string[] {
   return value
     .split("\n")
     .map((line) => line.trim())
     .filter(Boolean);
-}
-
-function parseKeyValueLines(value: string): Array<{ [key: string]: string }> {
-  return parseLines(value).map((line) => {
-    const parts = line.split(",").map((p) => p.trim());
-    if (parts.length >= 2) {
-      return { label: parts[0], value: parts[1] };
-    }
-    return { label: parts[0] || "", value: "" };
-  });
 }
 
 function parseImageLines(value: string): Array<{ src: string; alt: string; caption: string }> {
@@ -61,10 +66,6 @@ function parseHighlightLines(value: string): Array<{ icon: string; text: string 
 
 function serializeLines(arr: string[]): string {
   return arr.join("\n");
-}
-
-function serializeKeyValue(arr: Array<{ label: string; value: string }>): string {
-  return arr.map((item) => `${item.label},${item.value}`).join("\n");
 }
 
 function serializeImages(arr: Array<{ src: string; alt: string; caption: string }>): string {
@@ -170,6 +171,8 @@ export function ProductForm({ product, mode, productId }: ProductFormProps) {
   const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [uploadingThumbnail, setUploadingThumbnail] = useState(false);
+  const [uploadingGallery, setUploadingGallery] = useState(false);
 
   // Basic
   const [id, setId] = useState(product?.id || "");
@@ -211,6 +214,23 @@ export function ProductForm({ product, mode, productId }: ProductFormProps) {
   const [badges, setBadges] = useState(serializeBadges(product?.badges || []));
   const [images, setImages] = useState(serializeImages(product?.images || []));
   const [thumbnail, setThumbnail] = useState(product?.thumbnail || "");
+  const [thumbnailPreview, setThumbnailPreview] = useState<string>(product?.thumbnail || "");
+  const [galleryItems, setGalleryItems] = useState<GalleryItem[]>(() => {
+    const legacy = product?.images || [];
+    const legacyAssets = product?.imageAssets || [];
+    if (legacy.length) {
+      return legacy.map((item, index) => ({
+        url: item.src,
+        alt: item.alt,
+        caption: item.caption,
+      }));
+    }
+    return product?.cloudinaryImages?.map((url, index) => ({
+      url,
+      alt: legacyAssets[index]?.alt || "",
+      caption: "",
+    })) || [];
+  });
 
   // License
   const [licenseType, setLicenseType] = useState(product?.licenseType || "");
@@ -319,12 +339,113 @@ export function ProductForm({ product, mode, productId }: ProductFormProps) {
     return null;
   }
 
+  async function uploadFile(file: File): Promise<CloudinaryImageAsset> {
+    const formData = new FormData();
+    formData.append("file", file);
+
+    const res = await fetch("/api/admin/upload", {
+      method: "POST",
+      body: formData,
+    });
+
+    if (!res.ok) {
+      const data = await res.json().catch(() => ({}));
+      throw new Error(data.error || "Upload failed");
+    }
+
+    const result = await res.json();
+    return {
+      url: result.secureUrl || result.url,
+      publicId: result.publicId,
+      width: result.width,
+      height: result.height,
+      format: result.format,
+      alt: "",
+    };
+  }
+
+  async function handleThumbnailUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    try {
+      setUploadingThumbnail(true);
+      setError(null);
+      const asset = await uploadFile(file);
+      setThumbnailPreview(asset.url);
+      setThumbnail(asset.url);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Upload thumbnail failed");
+    } finally {
+      setUploadingThumbnail(false);
+      e.target.value = "";
+    }
+  }
+
+  async function handleGalleryUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const files = Array.from(e.target.files || []);
+    if (!files.length) return;
+
+    try {
+      setUploadingGallery(true);
+      setError(null);
+      const results = await Promise.all(files.map((file) => uploadFile(file)));
+      setGalleryItems((prev) => [
+        ...prev,
+        ...results.map((item) => ({
+          url: item.url,
+          alt: item.alt,
+          caption: "",
+        })),
+      ]);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Upload gallery failed");
+    } finally {
+      setUploadingGallery(false);
+      e.target.value = "";
+    }
+  }
+
+  function removeThumbnail() {
+    setThumbnailPreview("");
+    setThumbnail("");
+  }
+
+  function removeGalleryItem(index: number) {
+    setGalleryItems((prev) => prev.filter((_, idx) => idx !== index));
+  }
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setSubmitting(true);
     setError(null);
 
     try {
+      const cloudinaryImages = galleryItems.map((item) => item.url);
+      const imageAssets = galleryItems
+        .map((item) => {
+          const asset: Record<string, unknown> = {
+            url: item.url,
+            alt: item.alt,
+          };
+
+          if (item.publicId) {
+            asset.publicId = item.publicId;
+          }
+          if (typeof item.width === "number" && Number.isFinite(item.width)) {
+            asset.width = item.width;
+          }
+          if (typeof item.height === "number" && Number.isFinite(item.height)) {
+            asset.height = item.height;
+          }
+          if (item.format) {
+            asset.format = item.format;
+          }
+
+          return asset;
+        })
+        .filter((item) => typeof item.url === "string" && item.url.trim().length > 0);
+
       const payload: Record<string, unknown> = {
         id: id || slug,
         slug,
@@ -345,8 +466,12 @@ export function ProductForm({ product, mode, productId }: ProductFormProps) {
         originalPrice: originalPrice ? Number(originalPrice) : null,
         currency,
         badges: parseBadgeLines(badges),
-        images: parseImageLines(images),
-        thumbnail,
+        images: cloudinaryImages.length
+          ? cloudinaryImages.map((src) => ({ src, alt: "", caption: "" }))
+          : parseImageLines(images),
+        thumbnail: thumbnail || thumbnailPreview,
+        cloudinaryImages,
+        imageAssets,
         licenseType,
         activationType,
         deliveryType: {
@@ -553,20 +678,108 @@ export function ProductForm({ product, mode, productId }: ProductFormProps) {
             rows={3}
           />
         </Field>
-        <Field label="Images" hint="Format: src,alt,caption per line">
-          <Textarea
-            value={images}
-            onChange={(e) => setImages(e.target.value)}
-            placeholder={"/images/product1.jpg,Windows 11 Pro,USB Box\n/images/product2.jpg,Digital Key,Download"}
-            rows={4}
-          />
-        </Field>
+
         <Field label="Thumbnail">
-          <Input
-            value={thumbnail}
-            onChange={(e) => setThumbnail(e.target.value)}
-            placeholder="/images/thumbnail.jpg"
-          />
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-center gap-3">
+              <Button
+                type="button"
+                variant="outline"
+                disabled={uploadingThumbnail}
+                onClick={() => document.getElementById("thumbnail-upload")?.click()}
+              >
+                {uploadingThumbnail ? "Uploading..." : "Upload Thumbnail"}
+              </Button>
+              <input
+                id="thumbnail-upload"
+                type="file"
+                accept="image/*"
+                className="hidden"
+                onChange={handleThumbnailUpload}
+              />
+              {(thumbnail || thumbnailPreview) && (
+                <Button type="button" variant="destructive" onClick={removeThumbnail}>
+                  Remove Thumbnail
+                </Button>
+              )}
+            </div>
+            {(thumbnail || thumbnailPreview) && (
+              <div className="overflow-hidden rounded-md border">
+                <img
+                  src={thumbnail || thumbnailPreview}
+                  alt="Thumbnail preview"
+                  className="h-40 w-auto object-cover"
+                />
+              </div>
+            )}
+            <Input
+              value={thumbnail}
+              onChange={(e) => {
+                setThumbnail(e.target.value);
+                setThumbnailPreview(e.target.value);
+              }}
+              placeholder="/images/thumbnail.jpg"
+            />
+          </div>
+        </Field>
+
+        <Field label="Gallery Images" hint="Upload multiple images or keep legacy text format">
+          <div className="space-y-3">
+            <div className="flex flex-wrap items-center gap-3">
+              <Button
+                type="button"
+                variant="outline"
+                disabled={uploadingGallery}
+                onClick={() => document.getElementById("gallery-upload")?.click()}
+              >
+                {uploadingGallery ? "Uploading..." : "Upload Images"}
+              </Button>
+              <input
+                id="gallery-upload"
+                type="file"
+                accept="image/*"
+                multiple
+                className="hidden"
+                onChange={handleGalleryUpload}
+              />
+            </div>
+
+            {galleryItems.length > 0 && (
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+                {galleryItems.map((item, index) => (
+                  <div key={index} className="space-y-2 rounded-md border p-2">
+                    <div className="overflow-hidden rounded">
+                      <img
+                        src={item.url}
+                        alt={item.alt || `Gallery image ${index + 1}`}
+                        className="h-32 w-full object-cover"
+                      />
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="truncate text-xs text-muted-foreground">
+                        {item.url}
+                      </span>
+                      <Button
+                        type="button"
+                        size="sm"
+                        variant="destructive"
+                        onClick={() => removeGalleryItem(index)}
+                      >
+                        Remove
+                      </Button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <Textarea
+              value={images}
+              onChange={(e) => setImages(e.target.value)}
+              placeholder={"/images/product1.jpg,Windows 11 Pro,USB Box\n/images/product2.jpg,Digital Key,Download"}
+              rows={4}
+            />
+          </div>
         </Field>
       </FieldGroup>
 
