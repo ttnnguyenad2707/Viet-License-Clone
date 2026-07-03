@@ -82,7 +82,7 @@ async function seedSampleProducts() {
 
   await connectDB();
 
-  const allProducts = productsData.products as ProductData[];
+  const allProducts = productsData.products as unknown as ProductData[];
   const targetProducts = allProducts.filter((p) => TARGET_SLUGS.includes(p.slug));
 
   if (targetProducts.length === 0) {

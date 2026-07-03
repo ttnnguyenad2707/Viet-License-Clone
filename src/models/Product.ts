@@ -22,6 +22,15 @@ export interface IProduct extends Document {
   badges: Array<{ label: string; variant: string }>;
   images: Array<{ src: string; alt: string; caption: string }>;
   thumbnail: string;
+  imageAssets: Array<{
+    url: string;
+    publicId: string;
+    width: number;
+    height: number;
+    format: string;
+    alt: string;
+  }>;
+  cloudinaryImages: string[];
   licenseType: string;
   activationType: string;
   deliveryType: {

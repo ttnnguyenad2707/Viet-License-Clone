@@ -5,7 +5,7 @@ import Product from "@/models/Product";
 import { IProduct } from "@/models/Product";
 
 import { PDPBreadcrumb } from "@/components/pdp/PDPBrearcrumb";
-import { PDPBadges } from "@/components/pdp/PDPBadges";
+import { Badge, PDPBadges } from "@/components/pdp/PDPBadges";
 import { PDPPriceCTA } from "@/components/pdp/PDPPriceCTA";
 import { PDPImageGallery } from "@/components/pdp/PDPImageGallery";
 import { PDPProductInfo } from "@/components/pdp/PDPProductInfo";
@@ -30,7 +30,7 @@ async function getProduct(slug: string): Promise<IProduct | null> {
 async function getRelatedProducts(slugs: string[]): Promise<IProduct[]> {
   if (!slugs || slugs.length === 0) return [];
   await connectDB();
-  return Product.find({ slug: { $in: slugs } }).lean() as Promise<IProduct[]>;
+  return Product.find({ slug: { $in: slugs } }).lean() as unknown as Promise<IProduct[]>;
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
@@ -74,7 +74,7 @@ export default async function ProductPage({ params }: PageProps) {
 
               {/* Right: Info */}
               <div className="space-y-6">
-                <PDPBadges badges={product.badges} />
+                <PDPBadges badges={product.badges as Badge[]} />
 
                 <h1 className="display text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
                   {product.name}

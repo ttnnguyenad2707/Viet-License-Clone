@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
-import cloudinary from "@/lib/cloudinary";
+import cloudinary, { CLOUDINARY_UPLOAD_FOLDER } from "@/lib/cloudinary";
+import { UploadApiResponse } from "cloudinary";
 
 const ALLOWED_MIME_TYPES = new Set([
   "image/jpeg",
@@ -39,16 +40,16 @@ export async function POST(request: NextRequest) {
 
     const buffer = Buffer.from(await file.arrayBuffer());
 
-    const uploadResult = await new Promise<any>((resolve, reject) => {
+    const uploadResult = await new Promise<UploadApiResponse>((resolve, reject) => {
       cloudinary.uploader.upload_stream(
         {
-          folder: cloudinary.CLOUDINARY_UPLOAD_FOLDER,
+          folder: CLOUDINARY_UPLOAD_FOLDER,
           resource_type: "image",
           allowed_formats: ["jpg", "jpeg", "png", "webp", "gif", "avif"],
         },
         (error, result) => {
           if (error) return reject(error);
-          resolve(result);
+          resolve(result as UploadApiResponse);
         }
       ).end(buffer);
     });

@@ -34,7 +34,9 @@
     "typecheck": "tsc --noEmit",
     "check": "npm run lint && npm run typecheck && npm run build",
     "seed:products": "tsx scripts/seed-products.ts",
-    "seed:sample-products": "tsx scripts/seed-sample-products.ts"
+    "seed:sample-products": "tsx scripts/seed-sample-products.ts",
+    "enrich:product": "tsx scripts/enrich-product-text.ts",
+    "enrich:products": "tsx scripts/enrich-products-text-batch.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
@@ -55,6 +57,7 @@
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cheerio": "^1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
     "tailwindcss": "^4",

@@ -24,6 +24,10 @@ interface GalleryItem {
   url: string;
   alt: string;
   caption: string;
+  publicId?: string;
+  width?: number;
+  height?: number;
+  format?: string;
 }
 
 function parseLines(value: string): string[] {

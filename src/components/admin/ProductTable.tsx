@@ -112,34 +112,24 @@ export function ProductTable({ products, onRefresh }: ProductTableProps) {
                   </TableCell>
                   <TableCell className="text-right">
                     <div className="flex items-center justify-end gap-1">
-                      <Button
-                        variant="ghost"
-                        size="icon-sm"
+                      <a
+                        href={`/san-pham/${product.slug}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex size-7 items-center justify-center rounded-[min(var(--radius-md),12px)] hover:bg-muted hover:text-foreground"
                         title="View PDP"
-                        asChild={true}
                       >
-                        <a
-                          href={`/san-pham/${product.slug}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <ExternalLink className="size-4" />
-                        </a>
-                      </Button>
-                      <Button
-                        variant="ghost"
-                        size="icon-sm"
+                        <ExternalLink className="size-4" />
+                      </a>
+                      <a
+                        href={`/admin/products/${product._id}/edit`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex size-7 items-center justify-center rounded-[min(var(--radius-md),12px)] hover:bg-muted hover:text-foreground"
                         title="Edit"
-                        asChild={true}
                       >
-                        <a
-                          href={`/admin/products/${product._id}/edit`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
                         <Pencil className="size-4" />
-                        </a>
-                      </Button>
+                      </a>
                       <Button
                         variant="ghost"
                         size="icon-sm"

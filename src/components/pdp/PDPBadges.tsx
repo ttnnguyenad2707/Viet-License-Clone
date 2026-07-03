@@ -1,6 +1,6 @@
 type BadgeVariant = "default" | "primary" | "success" | "warning" | "danger";
 
-type Badge = {
+export type Badge = {
   label: string;
   variant: BadgeVariant;
 };
