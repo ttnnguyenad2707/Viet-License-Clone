@@ -1,0 +1,4489 @@
+{
+  "$schema": "./product-data-schema.json",
+  "products": [
+    {
+      "id": "windows-1011-home-pro-fpp-usb-fullbox",
+      "slug": "windows-10-11-home-pro-fpp-usb-fullbox",
+      "name": "Windows 10/11 Home/Pro - FPP USB Fullbox",
+      "category": "Windows",
+      "subcategory": "Windows 10/11",
+      "shortDescription": "Phù hợp chuyển máy Windows đang crack hoặc kích hoạt không rõ nguồn gốc sang license FPP rõ ràng.",
+      "price": {
+        "retail": 2650000,
+        "retailLabel": "2.650.000đ",
+        "bulk": 2550000,
+        "bulkLabel": "2.550.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Best seller",
+          "variant": "primary"
+        },
+        {
+          "label": "Fullbox",
+          "variant": "default"
+        },
+        {
+          "label": "USB",
+          "variant": "default"
+        },
+        {
+          "label": "FPP",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/products/windows-1011-home-pro-fpp-usb-fullbox/box-front.webp",
+          "alt": "Hộp Windows 11 Pro FPP/USB thực tế",
+          "caption": "Hộp Windows 11 Pro FPP/USB thực tế"
+        },
+        {
+          "src": "/images/products/windows-1011-home-pro-fpp-usb-fullbox/box-back.webp",
+          "alt": "Mặt sau hộp Windows 11 Pro FPP/USB thực tế",
+          "caption": "Mặt sau hộp Windows 11 Pro FPP/USB thực tế"
+        }
+      ],
+      "thumbnail": "/images/products/windows-1011-home-pro-fpp-usb-fullbox/thumbnail.webp",
+      "licenseType": "FPP (Full Packaged Product) / Retail",
+      "activationType": "Khóa kích hoạt (Product Key) — FPP Key",
+      "deliveryType": {
+        "form": "Fullbox",
+        "physicalItems": [
+          "1 x Box Windows chính hãng",
+          "1 x USB cài đặt Windows 10/11",
+          "1 x Key/license FPP đúng phiên bản Home/Pro",
+          "1 x Hướng dẫn kích hoạt"
+        ],
+        "digitalItems": [
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "DVD Fullbox phù hợp máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+          "FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro.",
+          "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+          "Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": true,
+        "transferNote": "Có thể chuyển máy. Nên cách nhau tối thiểu 90 ngày giữa các lần chuyển."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Máy đang dùng Windows crack hoặc kích hoạt không rõ nguồn gốc cần chuyển sang bản quyền.",
+        "Khách cần USB cài đặt tiện lợi và hình thức FPP rõ ràng.",
+        "Doanh nghiệp cần bàn giao có hộp, chứng từ và giảm rủi ro audit.",
+        "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "USB cài đặt Windows 10/11"
+        },
+        {
+          "icon": "check",
+          "text": "Có thể chuyển máy (FPP/Retail)"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "DVD Fullbox phù hợp máy mới hoặc máy cần cài Windows hoàn toàn từ đầu. FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro. License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+          "bullets": [
+            "DVD Fullbox phù hợp máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+            "FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro.",
+            "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+            "Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Windows"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Windows 10/11 Home/Pro"
+            },
+            {
+              "label": "Hình thức",
+              "value": "USB · Fullbox · FPP"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "OK"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Máy đang dùng Windows crack hoặc kích hoạt không rõ nguồn gốc cần chuyển sang bản quyền.",
+            "Khách cần USB cài đặt tiện lợi và hình thức FPP rõ ràng.",
+            "Doanh nghiệp cần bàn giao có hộp, chứng từ và giảm rủi ro audit.",
+            "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên để tối thiểu 90 ngày giữa các lần chuyển để giảm rủi ro lỗi kích hoạt."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Box Windows chính hãng",
+            "1 x USB cài đặt Windows 10/11",
+            "1 x Key/license FPP đúng phiên bản Home/Pro",
+            "1 x Hướng dẫn kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Windows"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Windows 10/11 Home/Pro"
+        },
+        {
+          "label": "Hình thức",
+          "value": "USB · Fullbox · FPP"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "OK"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "windows-1011-home-pro-dvd-fullbox",
+        "windows-1011-home-pro-fpp-no-box",
+        "windows-server-2016-2019",
+        "sql-server-2019-2022"
+      ],
+      "seo": {
+        "title": "Windows 10/11 Home/Pro - FPP USB Fullbox | Việt License",
+        "description": "Mua Windows 10/11 Home/Pro FPP USB Fullbox chính hãng. License rõ ràng, chuyển máy được, xuất VAT đầy đủ. Hỗ trợ kích hoạt qua Zalo.",
+        "keywords": "Windows 10/11 Home Pro FPP USB, bản quyền Windows USB, license FPP Windows, Windows OEM"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "isFeatured": true,
+      "displayOrder": null,
+      "listTitle": "Windows 10/11 Home/Pro - FPP USB Fullbox",
+      "listDescription": "Phù hợp chuyển máy Windows đang crack hoặc kích hoạt không rõ nguồn gốc sang license FPP rõ ràng.",
+      "cardBadges": [
+        "Fullbox",
+        "USB",
+        "FPP",
+        "Best seller"
+      ],
+      "originalPrice": null
+    },
+    {
+      "id": "office-2021-pro-plus-fullbox",
+      "slug": "office-2021-pro-plus-fullbox",
+      "name": "Office 2021 Pro Plus - Fullbox",
+      "category": "office",
+      "subcategory": "Office 2021",
+      "shortDescription": "Bản Fullbox dùng cho 1 máy, có hộp lưu hồ sơ và phù hợp khách cần Office 2021.",
+      "price": {
+        "retail": 2650000,
+        "retailLabel": "2.650.000đ",
+        "bulk": 2550000,
+        "bulkLabel": "2.550.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Fullbox",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-front.webp",
+          "alt": "Hộp Office 2021 Pro Plus thực tế",
+          "caption": "Hộp Office 2021 Pro Plus thực tế"
+        },
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-inside.webp",
+          "alt": "Bên trong hộp Office 2021 Pro Plus thực tế",
+          "caption": "Bên trong hộp Office 2021 Pro Plus thực tế"
+        },
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-lot.webp",
+          "alt": "Lô hộp Office 2021 Pro Plus thực tế, mã định danh đã che",
+          "caption": "Lô hộp Office 2021 Pro Plus thực tế, mã định danh đã che"
+        },
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-carton.webp",
+          "alt": "Thùng Office 2021 Pro Plus thực tế, mã định danh đã che",
+          "caption": "Thùng Office 2021 Pro Plus thực tế, mã định danh đã che"
+        },
+        {
+          "src": "/images/products/office-2021-pro-plus-fullbox/box-multiple.webp",
+          "alt": "Nhiều hộp Office 2021 Pro Plus thực tế, mã định danh đã che",
+          "caption": "Nhiều hộp Office 2021 Pro Plus thực tế, mã định danh đã che"
+        }
+      ],
+      "thumbnail": "/images/products/office-2021-pro-plus-fullbox/thumbnail.webp",
+      "licenseType": "FPP (Full Packaged Product) / Retail",
+      "activationType": "Khóa kích hoạt (Product Key) — FPP Key",
+      "deliveryType": {
+        "form": "Fullbox",
+        "physicalItems": [
+          "1 x Box Office chính hãng",
+          "1 x Key/license Office 2021 Pro Plus",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn cài đặt và kích hoạt"
+        ],
+        "digitalItems": [
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Bản Fullbox dùng cho 1 máy, có hộp lưu hồ sơ và phù hợp khách cần Office 2021.",
+          "Bản key thường dùng cho 1 máy và không đổi sang máy khác; phù hợp khi đã xác định rõ máy cần cài."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": false,
+        "transferNote": "Không đổi máy"
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Khách muốn bộ Office mới hơn Office 2019.",
+        "Cần hộp để lưu hồ sơ.",
+        "Doanh nghiệp cần chứng từ và hồ sơ license rõ ràng.",
+        "Bản key thường dùng cho 1 máy và không đổi sang máy khác; phù hợp khi đã xác định rõ máy cần cài."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Có hộp lưu hồ sơ"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Office"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Office 2021 Professional Plus"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Fullbox"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Không"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Khách muốn bộ Office mới hơn Office 2019.",
+            "Cần hộp để lưu hồ sơ.",
+            "Doanh nghiệp cần chứng từ và hồ sơ license rõ ràng.",
+            "Bản key thường dùng cho 1 máy và không đổi sang máy khác; phù hợp khi đã xác định rõ máy cần cài."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Box Office chính hãng",
+            "1 x Key/license Office 2021 Pro Plus",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Office"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Office 2021 Professional Plus"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Fullbox"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Không"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "office-2021-pro-plus-bind-account-fullbox",
+        "office-2021-pro-plus-no-box",
+        "office-2021-pro-plus-bind-account-no-box",
+        "office-2019-pro-plus-fullbox"
+      ],
+      "seo": {
+        "title": "Office 2021 Pro Plus - Fullbox | Việt License",
+        "description": "Mua Office 2021 Pro Plus Fullbox chính hãng. License rõ ràng, có hộp lưu hồ sơ, xuất VAT đầy đủ. Hỗ trợ kích hoạt qua Zalo.",
+        "keywords": "Office 2021 Pro Plus Fullbox, mua Office 2021, bản quyền Office 2021, license Office 2021"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "isFeatured": true,
+      "displayOrder": null,
+      "listTitle": "Office 2021 Pro Plus - Fullbox",
+      "listDescription": "Bản Fullbox dùng cho 1 máy, có hộp lưu hồ sơ và phù hợp khách cần Office 2021.",
+      "cardBadges": [
+        "Fullbox"
+      ],
+      "originalPrice": null
+    },
+    {
+      "id": "windows-1011-home-pro-dvd-fullbox",
+      "slug": "windows-10-11-home-pro-dvd-fullbox",
+      "name": "Windows 10/11 Home/Pro - DVD Fullbox",
+      "category": "windows",
+      "subcategory": "Windows 10/11",
+      "shortDescription": "Dành cho máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+      "price": {
+        "retail": 1300000,
+        "retailLabel": "1.300.000đ",
+        "bulk": 1200000,
+        "bulkLabel": "1.200.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "DVD",
+          "variant": "default"
+        },
+        {
+          "label": "Fullbox",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/win11pro-720.png",
+          "alt": "Windows 10/11 Home/Pro - DVD Fullbox - hình ảnh sản phẩm",
+          "caption": "Windows 10/11 Home/Pro - DVD Fullbox - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/win11pro-720.png",
+      "licenseType": "FPP (Full Packaged Product) / Retail",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "DVD Fullbox",
+        "physicalItems": [
+          "1 x Box Windows chính hãng",
+          "1 x DVD cài đặt Windows 10/11"
+        ],
+        "digitalItems": [
+          "1 x Key/license FPP đúng phiên bản Home/Pro",
+          "1 x Hướng dẫn kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "DVD Fullbox phù hợp máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+          "FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro.",
+          "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+          "Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": true,
+        "transferNote": "Có thể chuyển máy theo điều kiện license/bind account."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Dành cho máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+        "Khách cần license FPP/Retail rõ nguồn gốc, có thể chuyển máy khi thay thiết bị.",
+        "Doanh nghiệp cần chứng từ và hồ sơ license rõ ràng.",
+        "Chỉ dùng trên 1 máy tại một thời điểm; nên để tối thiểu 90 ngày giữa các lần chuyển để giảm rủi ro lỗi kích hoạt."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "DVD cài đặt Windows 10/11"
+        },
+        {
+          "icon": "check",
+          "text": "Có thể chuyển máy (FPP/Retail)"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "DVD Fullbox phù hợp máy mới hoặc máy cần cài Windows hoàn toàn từ đầu. FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro. License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt. Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt.",
+          "bullets": [
+            "DVD Fullbox phù hợp máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+            "FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro.",
+            "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+            "Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Windows"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Windows 10/11 Home/Pro"
+            },
+            {
+              "label": "Hình thức",
+              "value": "DVD Fullbox · FPP"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "OK"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Dành cho máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+            "Khách cần license FPP/Retail rõ nguồn gốc, có thể chuyển máy khi thay thiết bị.",
+            "Doanh nghiệp cần chứng từ và hồ sơ license rõ ràng.",
+            "Chỉ dùng trên 1 máy tại một thời điểm; nên để tối thiểu 90 ngày giữa các lần chuyển để giảm rủi ro lỗi kích hoạt."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Box Windows chính hãng",
+            "1 x DVD cài đặt Windows 10/11",
+            "1 x Key/license FPP đúng phiên bản Home/Pro",
+            "1 x Hướng dẫn kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Windows"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Windows 10/11 Home/Pro"
+        },
+        {
+          "label": "Hình thức",
+          "value": "DVD Fullbox · FPP"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "OK"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "windows-10-11-home-pro-fpp-usb-fullbox",
+        "windows-10-11-home-pro-fpp-no-box",
+        "windows-server-2016-2019",
+        "sql-server-2019-2022"
+      ],
+      "seo": {
+        "title": "Windows 10/11 Home/Pro - DVD Fullbox | Việt License",
+        "description": "Mua Windows 10/11 Home/Pro - DVD Fullbox chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Windows 10/11 Home/Pro - DVD Fullbox, bản quyền Windows 10/11 Home/Pro - DVD Fullbox, mua Windows 10/11 Home/Pro - DVD Fullbox, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Windows 10/11 Home/Pro - DVD Fullbox",
+      "listDescription": "Dành cho máy mới hoặc máy cần cài Windows hoàn toàn từ đầu.",
+      "cardBadges": [
+        "DVD",
+        "Fullbox"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "windows-1011-home-pro-fpp-no-box",
+      "slug": "windows-10-11-home-pro-fpp-no-box",
+      "name": "Windows 10/11 Home/Pro - FPP No Box",
+      "category": "windows",
+      "subcategory": "Windows 10/11",
+      "shortDescription": "FPP No Box gửi key qua email, phù hợp chuyển máy Windows crack hoặc kích hoạt không rõ nguồn gốc sang bản quyền.",
+      "price": {
+        "retail": 2200000,
+        "retailLabel": "2.200.000đ",
+        "bulk": 2100000,
+        "bulkLabel": "2.100.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "No Box",
+          "variant": "default"
+        },
+        {
+          "label": "FPP",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/win11pro-720.png",
+          "alt": "Windows 10/11 Home/Pro - FPP No Box - hình ảnh sản phẩm",
+          "caption": "Windows 10/11 Home/Pro - FPP No Box - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/win11pro-720.png",
+      "licenseType": "FPP (Full Packaged Product) / Retail",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "Key điện tử / No Box",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x Key/license FPP đúng phiên bản Home/Pro gửi qua email/Zalo",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro.",
+          "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+          "Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": true,
+        "transferNote": "Có thể chuyển máy theo điều kiện license/bind account."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "FPP No Box gửi key qua email, phù hợp chuyển máy Windows crack hoặc kích hoạt không rõ nguồn gốc sang bản quyền.",
+        "Khách cần license FPP/Retail rõ nguồn gốc, có thể chuyển máy khi thay thiết bị.",
+        "Doanh nghiệp cần chứng từ và hồ sơ license rõ ràng.",
+        "Chỉ dùng trên 1 máy tại một thời điểm; nên để tối thiểu 90 ngày giữa các lần chuyển để giảm rủi ro lỗi kích hoạt."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Gửi key/license nhanh qua email/Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Có thể chuyển máy (FPP/Retail)"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro. License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt. Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt.",
+          "bullets": [
+            "FPP phù hợp chuyển máy đang crack hoặc kích hoạt không rõ nguồn gốc sang license rõ ràng, thường không cần cài lại nếu đúng Home/Pro.",
+            "License FPP/Retail có thể chuyển sang máy khác nhiều lần, chỉ dùng trên 1 máy tại một thời điểm; nên cách nhau tối thiểu 90 ngày để giảm rủi ro lỗi kích hoạt.",
+            "Nếu sai phiên bản hoặc hệ điều hành lỗi nặng, sẽ được tư vấn cài lại trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Windows"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Windows 10/11 Home/Pro"
+            },
+            {
+              "label": "Hình thức",
+              "value": "No Box · FPP"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "OK"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "FPP No Box gửi key qua email, phù hợp chuyển máy Windows crack hoặc kích hoạt không rõ nguồn gốc sang bản quyền.",
+            "Khách cần license FPP/Retail rõ nguồn gốc, có thể chuyển máy khi thay thiết bị.",
+            "Doanh nghiệp cần chứng từ và hồ sơ license rõ ràng.",
+            "Chỉ dùng trên 1 máy tại một thời điểm; nên để tối thiểu 90 ngày giữa các lần chuyển để giảm rủi ro lỗi kích hoạt."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Key/license FPP đúng phiên bản Home/Pro gửi qua email/Zalo",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Windows"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Windows 10/11 Home/Pro"
+        },
+        {
+          "label": "Hình thức",
+          "value": "No Box · FPP"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "OK"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "windows-10-11-home-pro-fpp-usb-fullbox",
+        "windows-10-11-home-pro-dvd-fullbox",
+        "windows-server-2016-2019",
+        "sql-server-2019-2022"
+      ],
+      "seo": {
+        "title": "Windows 10/11 Home/Pro - FPP No Box | Việt License",
+        "description": "Mua Windows 10/11 Home/Pro - FPP No Box chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Windows 10/11 Home/Pro - FPP No Box, bản quyền Windows 10/11 Home/Pro - FPP No Box, mua Windows 10/11 Home/Pro - FPP No Box, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Windows 10/11 Home/Pro - FPP No Box",
+      "listDescription": "FPP No Box gửi key qua email, phù hợp chuyển máy Windows crack hoặc kích hoạt không rõ nguồn gốc sang bản quyền.",
+      "cardBadges": [
+        "No Box",
+        "FPP"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "windows-server-2016-2019",
+      "slug": "windows-server-2016-2019",
+      "name": "Windows Server 2016/2019",
+      "category": "windows",
+      "subcategory": "Windows Server",
+      "shortDescription": "License Windows Server 2016/2019 cho máy chủ nội bộ và hệ thống doanh nghiệp.",
+      "price": {
+        "retail": 5000000,
+        "retailLabel": "5.000.000đ",
+        "bulk": null,
+        "bulkLabel": "Liên hệ khi mua số lượng",
+        "bulkMinQty": null,
+        "bulkNote": "",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Server",
+          "variant": "default"
+        },
+        {
+          "label": "Digital License",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/products/windows-server-2019-packshot.png",
+          "alt": "Windows Server 2016/2019 - hình ảnh sản phẩm",
+          "caption": "Windows Server 2016/2019 - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/products/windows-server-2019-packshot.png",
+      "licenseType": "Volume/Retail License theo gói cung cấp",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "Digital License",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x Key/license Windows Server 2016/2019",
+          "1 x Link tải bộ cài chính hãng hoặc hướng dẫn tải từ Microsoft",
+          "1 x Hướng dẫn cài đặt và kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Sản phẩm server/database cần chọn đúng phiên bản và mô hình triển khai trước khi kích hoạt.",
+          "Khách hàng mua số lượng hoặc cần CAL/triển khai đặc thù nên liên hệ để được tư vấn cấu hình license phù hợp."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": false,
+        "transferNote": "Không đổi máy hoặc theo điều kiện license cụ thể."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "License Windows Server 2016/2019 cho máy chủ nội bộ và hệ thống doanh nghiệp.",
+        "Doanh nghiệp cần license rõ ràng cho máy chủ, ứng dụng nội bộ hoặc hệ thống dữ liệu.",
+        "Đơn vị cần chứng từ để lưu hồ sơ, nghiệm thu hoặc giảm rủi ro audit.",
+        "Khách cần tư vấn trước khi triển khai để chọn đúng phiên bản và số lượng license."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Phù hợp hệ thống doanh nghiệp"
+        },
+        {
+          "icon": "check",
+          "text": "Tư vấn chọn đúng phiên bản"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Sản phẩm server/database cần chọn đúng phiên bản và mô hình triển khai trước khi kích hoạt. Khách hàng mua số lượng hoặc cần CAL/triển khai đặc thù nên liên hệ để được tư vấn cấu hình license phù hợp.",
+          "bullets": [
+            "Sản phẩm server/database cần chọn đúng phiên bản và mô hình triển khai trước khi kích hoạt.",
+            "Khách hàng mua số lượng hoặc cần CAL/triển khai đặc thù nên liên hệ để được tư vấn cấu hình license phù hợp."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Windows Server"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Windows Server 2016/2019"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Digital License"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Theo điều kiện license"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "License Windows Server 2016/2019 cho máy chủ nội bộ và hệ thống doanh nghiệp.",
+            "Doanh nghiệp cần license rõ ràng cho máy chủ, ứng dụng nội bộ hoặc hệ thống dữ liệu.",
+            "Đơn vị cần chứng từ để lưu hồ sơ, nghiệm thu hoặc giảm rủi ro audit.",
+            "Khách cần tư vấn trước khi triển khai để chọn đúng phiên bản và số lượng license."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Key/license Windows Server 2016/2019",
+            "1 x Link tải bộ cài chính hãng hoặc hướng dẫn tải từ Microsoft",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Windows Server"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Windows Server 2016/2019"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Digital License"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Theo điều kiện license"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "windows-10-11-home-pro-fpp-usb-fullbox",
+        "windows-10-11-home-pro-dvd-fullbox",
+        "windows-10-11-home-pro-fpp-no-box",
+        "sql-server-2019-2022"
+      ],
+      "seo": {
+        "title": "Windows Server 2016/2019 | Việt License",
+        "description": "Mua Windows Server 2016/2019 chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Windows Server 2016/2019, bản quyền Windows Server 2016/2019, mua Windows Server 2016/2019, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Windows Server 2016/2019",
+      "listDescription": "License Windows Server 2016/2019 cho máy chủ nội bộ và hệ thống doanh nghiệp.",
+      "cardBadges": [
+        "Server",
+        "Digital License"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "sql-server-2019-2022",
+      "slug": "sql-server-2019-2022",
+      "name": "SQL Server 2019/2022",
+      "category": "windows",
+      "subcategory": "SQL Server",
+      "shortDescription": "License SQL Server 2019/2022 cho hệ thống dữ liệu và ứng dụng doanh nghiệp.",
+      "price": {
+        "retail": 5500000,
+        "retailLabel": "5.500.000đ",
+        "bulk": null,
+        "bulkLabel": "Liên hệ khi mua số lượng",
+        "bulkMinQty": null,
+        "bulkNote": "",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "SQL",
+          "variant": "default"
+        },
+        {
+          "label": "Server",
+          "variant": "default"
+        },
+        {
+          "label": "Digital License",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/products/sql-server-2022-packshot.png",
+          "alt": "SQL Server 2019/2022 - hình ảnh sản phẩm",
+          "caption": "SQL Server 2019/2022 - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/products/sql-server-2022-packshot.png",
+      "licenseType": "Volume/Retail License theo gói cung cấp",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "Digital License",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x Key/license SQL Server 2019/2022",
+          "1 x Link tải bộ cài chính hãng hoặc hướng dẫn tải từ Microsoft",
+          "1 x Hướng dẫn cài đặt và kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Sản phẩm server/database cần chọn đúng phiên bản và mô hình triển khai trước khi kích hoạt.",
+          "Khách hàng mua số lượng hoặc cần CAL/triển khai đặc thù nên liên hệ để được tư vấn cấu hình license phù hợp."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": false,
+        "transferNote": "Không đổi máy hoặc theo điều kiện license cụ thể."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "License SQL Server 2019/2022 cho hệ thống dữ liệu và ứng dụng doanh nghiệp.",
+        "Doanh nghiệp cần license rõ ràng cho máy chủ, ứng dụng nội bộ hoặc hệ thống dữ liệu.",
+        "Đơn vị cần chứng từ để lưu hồ sơ, nghiệm thu hoặc giảm rủi ro audit.",
+        "Khách cần tư vấn trước khi triển khai để chọn đúng phiên bản và số lượng license."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Phù hợp hệ thống doanh nghiệp"
+        },
+        {
+          "icon": "check",
+          "text": "Tư vấn chọn đúng phiên bản"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Sản phẩm server/database cần chọn đúng phiên bản và mô hình triển khai trước khi kích hoạt. Khách hàng mua số lượng hoặc cần CAL/triển khai đặc thù nên liên hệ để được tư vấn cấu hình license phù hợp.",
+          "bullets": [
+            "Sản phẩm server/database cần chọn đúng phiên bản và mô hình triển khai trước khi kích hoạt.",
+            "Khách hàng mua số lượng hoặc cần CAL/triển khai đặc thù nên liên hệ để được tư vấn cấu hình license phù hợp."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "SQL Server"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "SQL Server 2019/2022"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Digital License"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Theo điều kiện license"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "License SQL Server 2019/2022 cho hệ thống dữ liệu và ứng dụng doanh nghiệp.",
+            "Doanh nghiệp cần license rõ ràng cho máy chủ, ứng dụng nội bộ hoặc hệ thống dữ liệu.",
+            "Đơn vị cần chứng từ để lưu hồ sơ, nghiệm thu hoặc giảm rủi ro audit.",
+            "Khách cần tư vấn trước khi triển khai để chọn đúng phiên bản và số lượng license."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Key/license SQL Server 2019/2022",
+            "1 x Link tải bộ cài chính hãng hoặc hướng dẫn tải từ Microsoft",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "SQL Server"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "SQL Server 2019/2022"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Digital License"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Theo điều kiện license"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "windows-10-11-home-pro-fpp-usb-fullbox",
+        "windows-10-11-home-pro-dvd-fullbox",
+        "windows-10-11-home-pro-fpp-no-box",
+        "windows-server-2016-2019"
+      ],
+      "seo": {
+        "title": "SQL Server 2019/2022 | Việt License",
+        "description": "Mua SQL Server 2019/2022 chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "SQL Server 2019/2022, bản quyền SQL Server 2019/2022, mua SQL Server 2019/2022, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "SQL Server 2019/2022",
+      "listDescription": "License SQL Server 2019/2022 cho hệ thống dữ liệu và ứng dụng doanh nghiệp.",
+      "cardBadges": [
+        "SQL",
+        "Server",
+        "Digital License"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "office-2021-pro-plus-bind-account-fullbox",
+      "slug": "office-2021-pro-plus-bind-account-fullbox",
+      "name": "Office 2021 Pro Plus - Bind account + Fullbox",
+      "category": "office",
+      "subcategory": "Office 2021",
+      "shortDescription": "Bind account kèm Fullbox, license gắn vào tài khoản Microsoft của khách và có hộp lưu hồ sơ.",
+      "price": {
+        "retail": 2900000,
+        "retailLabel": "2.900.000đ",
+        "bulk": 2800000,
+        "bulkLabel": "2.800.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Bind account",
+          "variant": "default"
+        },
+        {
+          "label": "Fullbox",
+          "variant": "default"
+        },
+        {
+          "label": "Best seller",
+          "variant": "primary"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/officepro2021-720.png",
+          "alt": "Office 2021 Pro Plus - Bind account + Fullbox - hình ảnh sản phẩm",
+          "caption": "Office 2021 Pro Plus - Bind account + Fullbox - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/officepro2021-720.png",
+      "licenseType": "FPP (Full Packaged Product) / Retail",
+      "activationType": "Bind tài khoản Microsoft + Product Key",
+      "deliveryType": {
+        "form": "Bind account + Fullbox",
+        "physicalItems": [
+          "1 x Box Office chính hãng"
+        ],
+        "digitalItems": [
+          "1 x Key/license Office 2021 Pro Plus",
+          "1 x Hướng dẫn bind license vào tài khoản Microsoft của khách",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn cài đặt và kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt.",
+          "Bản Fullbox có hộp để lưu hồ sơ, phù hợp khách hàng cần chứng từ và bàn giao nội bộ.",
+          "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": true,
+        "transferNote": "Có thể chuyển máy theo điều kiện license/bind account."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Bind account kèm Fullbox, license gắn vào tài khoản Microsoft của khách và có hộp lưu hồ sơ.",
+        "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+        "Khách cần chứng từ và hồ sơ license rõ ràng.",
+        "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Bind license vào tài khoản Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "Có hộp lưu hồ sơ"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt. Bản Fullbox có hộp để lưu hồ sơ, phù hợp khách hàng cần chứng từ và bàn giao nội bộ. Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt.",
+          "bullets": [
+            "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt.",
+            "Bản Fullbox có hộp để lưu hồ sơ, phù hợp khách hàng cần chứng từ và bàn giao nội bộ.",
+            "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Office"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Office 2021 Professional Plus"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Bind account + Fullbox"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Theo điều kiện license"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Bind account kèm Fullbox, license gắn vào tài khoản Microsoft của khách và có hộp lưu hồ sơ.",
+            "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+            "Khách cần chứng từ và hồ sơ license rõ ràng.",
+            "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Box Office chính hãng",
+            "1 x Key/license Office 2021 Pro Plus",
+            "1 x Hướng dẫn bind license vào tài khoản Microsoft của khách",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Office"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Office 2021 Professional Plus"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Bind account + Fullbox"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Theo điều kiện license"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "office-2021-pro-plus-fullbox",
+        "office-2021-pro-plus-no-box",
+        "office-2021-pro-plus-bind-account-no-box",
+        "office-2019-pro-plus-fullbox"
+      ],
+      "seo": {
+        "title": "Office 2021 Pro Plus - Bind account + Fullbox | Việt License",
+        "description": "Mua Office 2021 Pro Plus - Bind account + Fullbox chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Office 2021 Pro Plus - Bind account + Fullbox, bản quyền Office 2021 Pro Plus - Bind account + Fullbox, mua Office 2021 Pro Plus - Bind account + Fullbox, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Office 2021 Pro Plus - Bind account + Fullbox",
+      "listDescription": "Bind account kèm Fullbox, license gắn vào tài khoản Microsoft của khách và có hộp lưu hồ sơ.",
+      "cardBadges": [
+        "Bind account",
+        "Fullbox",
+        "Best seller"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "office-2021-pro-plus-no-box",
+      "slug": "office-2021-pro-plus-no-box",
+      "name": "Office 2021 Pro Plus - No Box",
+      "category": "office",
+      "subcategory": "Office 2021",
+      "shortDescription": "Bản No Box dùng cho 1 máy, gửi key/license qua email và không kèm hộp.",
+      "price": {
+        "retail": 2250000,
+        "retailLabel": "2.250.000đ",
+        "bulk": 2150000,
+        "bulkLabel": "2.150.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "No Box",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/officepro2021-720.png",
+          "alt": "Office 2021 Pro Plus - No Box - hình ảnh sản phẩm",
+          "caption": "Office 2021 Pro Plus - No Box - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/officepro2021-720.png",
+      "licenseType": "Retail/Digital License",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "No Box",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x Key/license Office 2021 Pro Plus",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn cài đặt và kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý.",
+          "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": false,
+        "transferNote": "Không đổi máy hoặc theo điều kiện license cụ thể."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Bản No Box dùng cho 1 máy, gửi key/license qua email và không kèm hộp.",
+        "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+        "Khách cần chứng từ và hồ sơ license rõ ràng.",
+        "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Gửi key/license nhanh qua email/Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý. Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt.",
+          "bullets": [
+            "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý.",
+            "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Office"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Office 2021 Professional Plus"
+            },
+            {
+              "label": "Hình thức",
+              "value": "No Box"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Không"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Bản No Box dùng cho 1 máy, gửi key/license qua email và không kèm hộp.",
+            "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+            "Khách cần chứng từ và hồ sơ license rõ ràng.",
+            "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Key/license Office 2021 Pro Plus",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Office"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Office 2021 Professional Plus"
+        },
+        {
+          "label": "Hình thức",
+          "value": "No Box"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Không"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "office-2021-pro-plus-fullbox",
+        "office-2021-pro-plus-bind-account-fullbox",
+        "office-2021-pro-plus-bind-account-no-box",
+        "office-2019-pro-plus-fullbox"
+      ],
+      "seo": {
+        "title": "Office 2021 Pro Plus - No Box | Việt License",
+        "description": "Mua Office 2021 Pro Plus - No Box chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Office 2021 Pro Plus - No Box, bản quyền Office 2021 Pro Plus - No Box, mua Office 2021 Pro Plus - No Box, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Office 2021 Pro Plus - No Box",
+      "listDescription": "Bản No Box dùng cho 1 máy, gửi key/license qua email và không kèm hộp.",
+      "cardBadges": [
+        "No Box"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "office-2021-pro-plus-bind-account-no-box",
+      "slug": "office-2021-pro-plus-bind-account-no-box",
+      "name": "Office 2021 Pro Plus - Bind account No Box",
+      "category": "office",
+      "subcategory": "Office 2021",
+      "shortDescription": "Bind account No Box, license gắn tài khoản Microsoft của khách và thông tin bàn giao gửi qua email.",
+      "price": {
+        "retail": 2600000,
+        "retailLabel": "2.600.000đ",
+        "bulk": 2500000,
+        "bulkLabel": "2.500.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Bind account",
+          "variant": "default"
+        },
+        {
+          "label": "No Box",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/officepro2021-720.png",
+          "alt": "Office 2021 Pro Plus - Bind account No Box - hình ảnh sản phẩm",
+          "caption": "Office 2021 Pro Plus - Bind account No Box - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/officepro2021-720.png",
+      "licenseType": "Retail/Digital License",
+      "activationType": "Bind tài khoản Microsoft + Product Key",
+      "deliveryType": {
+        "form": "Bind account No Box",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x Key/license Office 2021 Pro Plus",
+          "1 x Hướng dẫn bind license vào tài khoản Microsoft của khách",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn cài đặt và kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt.",
+          "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý.",
+          "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": true,
+        "transferNote": "Có thể chuyển máy theo điều kiện license/bind account."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Bind account No Box, license gắn tài khoản Microsoft của khách và thông tin bàn giao gửi qua email.",
+        "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+        "Khách cần chứng từ và hồ sơ license rõ ràng.",
+        "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Bind license vào tài khoản Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "Gửi key/license nhanh qua email/Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt. Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý. Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt.",
+          "bullets": [
+            "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt.",
+            "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý.",
+            "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Office"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Office 2021 Professional Plus"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Bind account No Box"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Theo điều kiện license"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Bind account No Box, license gắn tài khoản Microsoft của khách và thông tin bàn giao gửi qua email.",
+            "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+            "Khách cần chứng từ và hồ sơ license rõ ràng.",
+            "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Key/license Office 2021 Pro Plus",
+            "1 x Hướng dẫn bind license vào tài khoản Microsoft của khách",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Office"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Office 2021 Professional Plus"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Bind account No Box"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Theo điều kiện license"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "office-2021-pro-plus-fullbox",
+        "office-2021-pro-plus-bind-account-fullbox",
+        "office-2021-pro-plus-no-box",
+        "office-2019-pro-plus-fullbox"
+      ],
+      "seo": {
+        "title": "Office 2021 Pro Plus - Bind account No Box | Việt License",
+        "description": "Mua Office 2021 Pro Plus - Bind account No Box chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Office 2021 Pro Plus - Bind account No Box, bản quyền Office 2021 Pro Plus - Bind account No Box, mua Office 2021 Pro Plus - Bind account No Box, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Office 2021 Pro Plus - Bind account No Box",
+      "listDescription": "Bind account No Box, license gắn tài khoản Microsoft của khách và thông tin bàn giao gửi qua email.",
+      "cardBadges": [
+        "Bind account",
+        "No Box"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "office-2019-pro-plus-fullbox",
+      "slug": "office-2019-pro-plus-fullbox",
+      "name": "Office 2019 Pro Plus - Fullbox",
+      "category": "office",
+      "subcategory": "Office 2019",
+      "shortDescription": "Bản Fullbox dùng cho 1 máy, có hộp và key/license lưu hồ sơ.",
+      "price": {
+        "retail": 1900000,
+        "retailLabel": "1.900.000đ",
+        "bulk": 1800000,
+        "bulkLabel": "1.800.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Fullbox",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/officepro2019-720.png",
+          "alt": "Office 2019 Pro Plus - Fullbox - hình ảnh sản phẩm",
+          "caption": "Office 2019 Pro Plus - Fullbox - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/officepro2019-720.png",
+      "licenseType": "FPP (Full Packaged Product) / Retail",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "Fullbox",
+        "physicalItems": [
+          "1 x Box Office chính hãng"
+        ],
+        "digitalItems": [
+          "1 x Key/license Office 2019 Pro Plus",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn cài đặt và kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Bản Fullbox có hộp để lưu hồ sơ, phù hợp khách hàng cần chứng từ và bàn giao nội bộ.",
+          "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": false,
+        "transferNote": "Không đổi máy hoặc theo điều kiện license cụ thể."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Bản Fullbox dùng cho 1 máy, có hộp và key/license lưu hồ sơ.",
+        "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+        "Khách cần chứng từ và hồ sơ license rõ ràng.",
+        "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Có hộp lưu hồ sơ"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Bản Fullbox có hộp để lưu hồ sơ, phù hợp khách hàng cần chứng từ và bàn giao nội bộ. Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt.",
+          "bullets": [
+            "Bản Fullbox có hộp để lưu hồ sơ, phù hợp khách hàng cần chứng từ và bàn giao nội bộ.",
+            "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Office"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Office 2019 Professional Plus"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Fullbox"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Không"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Bản Fullbox dùng cho 1 máy, có hộp và key/license lưu hồ sơ.",
+            "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+            "Khách cần chứng từ và hồ sơ license rõ ràng.",
+            "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Box Office chính hãng",
+            "1 x Key/license Office 2019 Pro Plus",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Office"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Office 2019 Professional Plus"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Fullbox"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Không"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "office-2021-pro-plus-fullbox",
+        "office-2021-pro-plus-bind-account-fullbox",
+        "office-2021-pro-plus-no-box",
+        "office-2021-pro-plus-bind-account-no-box"
+      ],
+      "seo": {
+        "title": "Office 2019 Pro Plus - Fullbox | Việt License",
+        "description": "Mua Office 2019 Pro Plus - Fullbox chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Office 2019 Pro Plus - Fullbox, bản quyền Office 2019 Pro Plus - Fullbox, mua Office 2019 Pro Plus - Fullbox, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Office 2019 Pro Plus - Fullbox",
+      "listDescription": "Bản Fullbox dùng cho 1 máy, có hộp và key/license lưu hồ sơ.",
+      "cardBadges": [
+        "Fullbox"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "office-2019-pro-plus-no-box",
+      "slug": "office-2019-pro-plus-no-box",
+      "name": "Office 2019 Pro Plus - No Box",
+      "category": "office",
+      "subcategory": "Office 2019",
+      "shortDescription": "Bản No Box dùng cho 1 máy, gửi key/license qua email và không kèm hộp vật lý.",
+      "price": {
+        "retail": 1500000,
+        "retailLabel": "1.500.000đ",
+        "bulk": 1400000,
+        "bulkLabel": "1.400.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "No Box",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/officepro2019-720.png",
+          "alt": "Office 2019 Pro Plus - No Box - hình ảnh sản phẩm",
+          "caption": "Office 2019 Pro Plus - No Box - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/officepro2019-720.png",
+      "licenseType": "Retail/Digital License",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "No Box",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x Key/license Office 2019 Pro Plus",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn cài đặt và kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý.",
+          "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": false,
+        "transferNote": "Không đổi máy hoặc theo điều kiện license cụ thể."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Bản No Box dùng cho 1 máy, gửi key/license qua email và không kèm hộp vật lý.",
+        "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+        "Khách cần chứng từ và hồ sơ license rõ ràng.",
+        "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Gửi key/license nhanh qua email/Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý. Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt.",
+          "bullets": [
+            "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý.",
+            "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Office"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Office 2019 Professional Plus"
+            },
+            {
+              "label": "Hình thức",
+              "value": "No Box"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Không"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Bản No Box dùng cho 1 máy, gửi key/license qua email và không kèm hộp vật lý.",
+            "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+            "Khách cần chứng từ và hồ sơ license rõ ràng.",
+            "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Key/license Office 2019 Pro Plus",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Office"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Office 2019 Professional Plus"
+        },
+        {
+          "label": "Hình thức",
+          "value": "No Box"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Không"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "office-2021-pro-plus-fullbox",
+        "office-2021-pro-plus-bind-account-fullbox",
+        "office-2021-pro-plus-no-box",
+        "office-2021-pro-plus-bind-account-no-box"
+      ],
+      "seo": {
+        "title": "Office 2019 Pro Plus - No Box | Việt License",
+        "description": "Mua Office 2019 Pro Plus - No Box chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Office 2019 Pro Plus - No Box, bản quyền Office 2019 Pro Plus - No Box, mua Office 2019 Pro Plus - No Box, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Office 2019 Pro Plus - No Box",
+      "listDescription": "Bản No Box dùng cho 1 máy, gửi key/license qua email và không kèm hộp vật lý.",
+      "cardBadges": [
+        "No Box"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "office-2019-pro-plus-bind-account-fullbox",
+      "slug": "office-2019-pro-plus-bind-account-fullbox",
+      "name": "Office 2019 Pro Plus - Bind account + Fullbox",
+      "category": "office",
+      "subcategory": "Office 2019",
+      "shortDescription": "Bind account kèm Fullbox, license gắn vào tài khoản Microsoft của khách và có hộp lưu hồ sơ.",
+      "price": {
+        "retail": 2600000,
+        "retailLabel": "2.600.000đ",
+        "bulk": 2500000,
+        "bulkLabel": "2.500.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Bind account",
+          "variant": "default"
+        },
+        {
+          "label": "Fullbox",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/officepro2019-720.png",
+          "alt": "Office 2019 Pro Plus - Bind account + Fullbox - hình ảnh sản phẩm",
+          "caption": "Office 2019 Pro Plus - Bind account + Fullbox - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/officepro2019-720.png",
+      "licenseType": "FPP (Full Packaged Product) / Retail",
+      "activationType": "Bind tài khoản Microsoft + Product Key",
+      "deliveryType": {
+        "form": "Bind account + Fullbox",
+        "physicalItems": [
+          "1 x Box Office chính hãng"
+        ],
+        "digitalItems": [
+          "1 x Key/license Office 2019 Pro Plus",
+          "1 x Hướng dẫn bind license vào tài khoản Microsoft của khách",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn cài đặt và kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt.",
+          "Bản Fullbox có hộp để lưu hồ sơ, phù hợp khách hàng cần chứng từ và bàn giao nội bộ.",
+          "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": true,
+        "transferNote": "Có thể chuyển máy theo điều kiện license/bind account."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Bind account kèm Fullbox, license gắn vào tài khoản Microsoft của khách và có hộp lưu hồ sơ.",
+        "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+        "Khách cần chứng từ và hồ sơ license rõ ràng.",
+        "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Bind license vào tài khoản Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "Có hộp lưu hồ sơ"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt. Bản Fullbox có hộp để lưu hồ sơ, phù hợp khách hàng cần chứng từ và bàn giao nội bộ. Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt.",
+          "bullets": [
+            "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt.",
+            "Bản Fullbox có hộp để lưu hồ sơ, phù hợp khách hàng cần chứng từ và bàn giao nội bộ.",
+            "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Office"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Office 2019 Professional Plus"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Bind account + Fullbox"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Theo điều kiện license"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Bind account kèm Fullbox, license gắn vào tài khoản Microsoft của khách và có hộp lưu hồ sơ.",
+            "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+            "Khách cần chứng từ và hồ sơ license rõ ràng.",
+            "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Box Office chính hãng",
+            "1 x Key/license Office 2019 Pro Plus",
+            "1 x Hướng dẫn bind license vào tài khoản Microsoft của khách",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Office"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Office 2019 Professional Plus"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Bind account + Fullbox"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Theo điều kiện license"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "office-2021-pro-plus-fullbox",
+        "office-2021-pro-plus-bind-account-fullbox",
+        "office-2021-pro-plus-no-box",
+        "office-2021-pro-plus-bind-account-no-box"
+      ],
+      "seo": {
+        "title": "Office 2019 Pro Plus - Bind account + Fullbox | Việt License",
+        "description": "Mua Office 2019 Pro Plus - Bind account + Fullbox chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Office 2019 Pro Plus - Bind account + Fullbox, bản quyền Office 2019 Pro Plus - Bind account + Fullbox, mua Office 2019 Pro Plus - Bind account + Fullbox, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Office 2019 Pro Plus - Bind account + Fullbox",
+      "listDescription": "Bind account kèm Fullbox, license gắn vào tài khoản Microsoft của khách và có hộp lưu hồ sơ.",
+      "cardBadges": [
+        "Bind account",
+        "Fullbox"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "office-2019-pro-plus-bind-account-no-box",
+      "slug": "office-2019-pro-plus-bind-account-no-box",
+      "name": "Office 2019 Pro Plus - Bind account No Box",
+      "category": "office",
+      "subcategory": "Office 2019",
+      "shortDescription": "Bind account No Box, license gắn tài khoản Microsoft của khách và thông tin bàn giao gửi qua email.",
+      "price": {
+        "retail": 2250000,
+        "retailLabel": "2.250.000đ",
+        "bulk": 2150000,
+        "bulkLabel": "2.150.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Bind account",
+          "variant": "default"
+        },
+        {
+          "label": "No Box",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/officepro2019-720.png",
+          "alt": "Office 2019 Pro Plus - Bind account No Box - hình ảnh sản phẩm",
+          "caption": "Office 2019 Pro Plus - Bind account No Box - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/officepro2019-720.png",
+      "licenseType": "Retail/Digital License",
+      "activationType": "Bind tài khoản Microsoft + Product Key",
+      "deliveryType": {
+        "form": "Bind account No Box",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x Key/license Office 2019 Pro Plus",
+          "1 x Hướng dẫn bind license vào tài khoản Microsoft của khách",
+          "1 x Link tải bộ cài chính hãng",
+          "1 x Hướng dẫn cài đặt và kích hoạt",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt.",
+          "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý.",
+          "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+        ]
+      },
+      "warranty": {
+        "duration": "vĩnh viễn",
+        "transferable": true,
+        "transferNote": "Có thể chuyển máy theo điều kiện license/bind account."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Bind account No Box, license gắn tài khoản Microsoft của khách và thông tin bàn giao gửi qua email.",
+        "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+        "Khách cần chứng từ và hồ sơ license rõ ràng.",
+        "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Bind license vào tài khoản Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "Gửi key/license nhanh qua email/Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        },
+        {
+          "icon": "check",
+          "text": "Hướng dẫn cài đặt chi tiết"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt. Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý. Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt.",
+          "bullets": [
+            "Bind account giúp license gắn với tài khoản Microsoft của khách, thuận tiện quản lý và khôi phục khi cần theo điều kiện kích hoạt.",
+            "Bản No Box bàn giao key/license và hướng dẫn qua email/Zalo, không kèm hộp vật lý.",
+            "Bản key thường dùng cho 1 máy; nên xác định đúng máy cần cài trước khi kích hoạt."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Office"
+            },
+            {
+              "label": "Phiên bản",
+              "value": "Office 2019 Professional Plus"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Bind account No Box"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Hạn sử dụng",
+              "value": "vĩnh viễn"
+            },
+            {
+              "label": "Đổi máy",
+              "value": "Theo điều kiện license"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Bind account No Box, license gắn tài khoản Microsoft của khách và thông tin bàn giao gửi qua email.",
+            "Cá nhân/doanh nghiệp cần Office bản quyền vĩnh viễn cho 1 máy.",
+            "Khách cần chứng từ và hồ sơ license rõ ràng.",
+            "Phù hợp khi đã xác định rõ máy cần cài đặt và kích hoạt Office."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x Key/license Office 2019 Pro Plus",
+            "1 x Hướng dẫn bind license vào tài khoản Microsoft của khách",
+            "1 x Link tải bộ cài chính hãng",
+            "1 x Hướng dẫn cài đặt và kích hoạt",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Office"
+        },
+        {
+          "label": "Phiên bản",
+          "value": "Office 2019 Professional Plus"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Bind account No Box"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Hạn sử dụng",
+          "value": "vĩnh viễn"
+        },
+        {
+          "label": "Đổi máy",
+          "value": "Theo điều kiện license"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "office-2021-pro-plus-fullbox",
+        "office-2021-pro-plus-bind-account-fullbox",
+        "office-2021-pro-plus-no-box",
+        "office-2021-pro-plus-bind-account-no-box"
+      ],
+      "seo": {
+        "title": "Office 2019 Pro Plus - Bind account No Box | Việt License",
+        "description": "Mua Office 2019 Pro Plus - Bind account No Box chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Office 2019 Pro Plus - Bind account No Box, bản quyền Office 2019 Pro Plus - Bind account No Box, mua Office 2019 Pro Plus - Bind account No Box, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Office 2019 Pro Plus - Bind account No Box",
+      "listDescription": "Bind account No Box, license gắn tài khoản Microsoft của khách và thông tin bàn giao gửi qua email.",
+      "cardBadges": [
+        "Bind account",
+        "No Box"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "microsoft-365-business-basic",
+      "slug": "microsoft-365-business-basic",
+      "name": "Microsoft 365 Business Basic",
+      "category": "microsoft-365",
+      "subcategory": "Microsoft 365",
+      "shortDescription": "Gói Microsoft 365 Business Basic 1 năm với ứng dụng Office web/mobile, email doanh nghiệp và cloud cho đội nhóm nhỏ.",
+      "price": {
+        "retail": 1400000,
+        "retailLabel": "1.400.000đ",
+        "bulk": 1290000,
+        "bulkLabel": "1.290.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Microsoft 365",
+          "variant": "default"
+        },
+        {
+          "label": "Business Basic",
+          "variant": "default"
+        },
+        {
+          "label": "1 năm",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/office2024.png",
+          "alt": "Microsoft 365 Business Basic - hình ảnh sản phẩm",
+          "caption": "Microsoft 365 Business Basic - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/office2024.png",
+      "licenseType": "Microsoft 365 Subscription",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "Subscription 1 năm",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x License Microsoft 365 Business Basic thời hạn 1 năm",
+          "1 x Tài khoản/tenant hoặc hướng dẫn gán license theo nhu cầu",
+          "1 x Hướng dẫn đăng nhập và sử dụng dịch vụ",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Microsoft 365 là gói thuê bao theo năm, cần gia hạn khi hết thời hạn sử dụng.",
+          "Nên xác định số lượng user và nhu cầu email, Office desktop, bảo mật trước khi chọn gói."
+        ]
+      },
+      "warranty": {
+        "duration": "1 năm",
+        "transferable": false,
+        "transferNote": "Có thể quản lý/gán license theo tenant hoặc tài khoản theo điều kiện Microsoft 365."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Gói Microsoft 365 Business Basic 1 năm với ứng dụng Office web/mobile, email doanh nghiệp và cloud cho đội nhóm nhỏ.",
+        "Doanh nghiệp nhỏ và vừa cần email, lưu trữ cloud và cộng tác trên Teams.",
+        "Đội nhóm cần license theo user, dễ quản lý và mở rộng số lượng.",
+        "Khách cần chứng từ và tư vấn triển khai Microsoft 365 rõ ràng."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Office web/mobile"
+        },
+        {
+          "icon": "check",
+          "text": "Email doanh nghiệp Exchange"
+        },
+        {
+          "icon": "check",
+          "text": "OneDrive/SharePoint/Teams cho cộng tác"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Microsoft 365 là gói thuê bao theo năm, cần gia hạn khi hết thời hạn sử dụng. Nên xác định số lượng user và nhu cầu email, Office desktop, bảo mật trước khi chọn gói.",
+          "bullets": [
+            "Microsoft 365 là gói thuê bao theo năm, cần gia hạn khi hết thời hạn sử dụng.",
+            "Nên xác định số lượng user và nhu cầu email, Office desktop, bảo mật trước khi chọn gói."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Microsoft 365"
+            },
+            {
+              "label": "Gói",
+              "value": "Business Basic"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Subscription 1 năm"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Thời hạn",
+              "value": "1 năm"
+            },
+            {
+              "label": "Đổi user",
+              "value": "Theo quản trị tenant/license"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Gói Microsoft 365 Business Basic 1 năm với ứng dụng Office web/mobile, email doanh nghiệp và cloud cho đội nhóm nhỏ.",
+            "Doanh nghiệp nhỏ và vừa cần email, lưu trữ cloud và cộng tác trên Teams.",
+            "Đội nhóm cần license theo user, dễ quản lý và mở rộng số lượng.",
+            "Khách cần chứng từ và tư vấn triển khai Microsoft 365 rõ ràng."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x License Microsoft 365 Business Basic thời hạn 1 năm",
+            "1 x Tài khoản/tenant hoặc hướng dẫn gán license theo nhu cầu",
+            "1 x Hướng dẫn đăng nhập và sử dụng dịch vụ",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Microsoft 365"
+        },
+        {
+          "label": "Gói",
+          "value": "Business Basic"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Subscription 1 năm"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Thời hạn",
+          "value": "1 năm"
+        },
+        {
+          "label": "Đổi user",
+          "value": "Theo quản trị tenant/license"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "microsoft-365-business-standard",
+        "microsoft-365-business-premium",
+        "windows-10-11-home-pro-fpp-usb-fullbox",
+        "office-2021-pro-plus-fullbox"
+      ],
+      "seo": {
+        "title": "Microsoft 365 Business Basic | Việt License",
+        "description": "Mua Microsoft 365 Business Basic chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Microsoft 365 Business Basic, bản quyền Microsoft 365 Business Basic, mua Microsoft 365 Business Basic, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Microsoft 365 Business Basic",
+      "listDescription": "Gói Microsoft 365 Business Basic 1 năm với ứng dụng Office web/mobile, email doanh nghiệp và cloud cho đội nhóm nhỏ.",
+      "cardBadges": [
+        "Microsoft 365",
+        "Business Basic",
+        "1 năm"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "microsoft-365-business-standard",
+      "slug": "microsoft-365-business-standard",
+      "name": "Microsoft 365 Business Standard",
+      "category": "microsoft-365",
+      "subcategory": "Microsoft 365",
+      "shortDescription": "Gói Microsoft 365 Business Standard 1 năm, thêm ứng dụng Office desktop bên cạnh email, cloud và cộng tác.",
+      "price": {
+        "retail": 3500000,
+        "retailLabel": "3.500.000đ",
+        "bulk": 3290000,
+        "bulkLabel": "3.290.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Microsoft 365",
+          "variant": "default"
+        },
+        {
+          "label": "Business Standard",
+          "variant": "default"
+        },
+        {
+          "label": "1 năm",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/office2024.png",
+          "alt": "Microsoft 365 Business Standard - hình ảnh sản phẩm",
+          "caption": "Microsoft 365 Business Standard - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/office2024.png",
+      "licenseType": "Microsoft 365 Subscription",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "Subscription 1 năm",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x License Microsoft 365 Business Standard thời hạn 1 năm",
+          "1 x Tài khoản/tenant hoặc hướng dẫn gán license theo nhu cầu",
+          "1 x Hướng dẫn đăng nhập và sử dụng dịch vụ",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Microsoft 365 là gói thuê bao theo năm, cần gia hạn khi hết thời hạn sử dụng.",
+          "Nên xác định số lượng user và nhu cầu email, Office desktop, bảo mật trước khi chọn gói."
+        ]
+      },
+      "warranty": {
+        "duration": "1 năm",
+        "transferable": false,
+        "transferNote": "Có thể quản lý/gán license theo tenant hoặc tài khoản theo điều kiện Microsoft 365."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Gói Microsoft 365 Business Standard 1 năm, thêm ứng dụng Office desktop bên cạnh email, cloud và cộng tác.",
+        "Doanh nghiệp nhỏ và vừa cần email, lưu trữ cloud và cộng tác trên Teams.",
+        "Đội nhóm cần license theo user, dễ quản lý và mở rộng số lượng.",
+        "Khách cần chứng từ và tư vấn triển khai Microsoft 365 rõ ràng."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Ứng dụng Office desktop"
+        },
+        {
+          "icon": "check",
+          "text": "Email doanh nghiệp Exchange"
+        },
+        {
+          "icon": "check",
+          "text": "OneDrive/SharePoint/Teams cho cộng tác"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Microsoft 365 là gói thuê bao theo năm, cần gia hạn khi hết thời hạn sử dụng. Nên xác định số lượng user và nhu cầu email, Office desktop, bảo mật trước khi chọn gói.",
+          "bullets": [
+            "Microsoft 365 là gói thuê bao theo năm, cần gia hạn khi hết thời hạn sử dụng.",
+            "Nên xác định số lượng user và nhu cầu email, Office desktop, bảo mật trước khi chọn gói."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Microsoft 365"
+            },
+            {
+              "label": "Gói",
+              "value": "Business Standard"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Subscription 1 năm"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Thời hạn",
+              "value": "1 năm"
+            },
+            {
+              "label": "Đổi user",
+              "value": "Theo quản trị tenant/license"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Gói Microsoft 365 Business Standard 1 năm, thêm ứng dụng Office desktop bên cạnh email, cloud và cộng tác.",
+            "Doanh nghiệp nhỏ và vừa cần email, lưu trữ cloud và cộng tác trên Teams.",
+            "Đội nhóm cần license theo user, dễ quản lý và mở rộng số lượng.",
+            "Khách cần chứng từ và tư vấn triển khai Microsoft 365 rõ ràng."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x License Microsoft 365 Business Standard thời hạn 1 năm",
+            "1 x Tài khoản/tenant hoặc hướng dẫn gán license theo nhu cầu",
+            "1 x Hướng dẫn đăng nhập và sử dụng dịch vụ",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Microsoft 365"
+        },
+        {
+          "label": "Gói",
+          "value": "Business Standard"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Subscription 1 năm"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Thời hạn",
+          "value": "1 năm"
+        },
+        {
+          "label": "Đổi user",
+          "value": "Theo quản trị tenant/license"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "microsoft-365-business-basic",
+        "microsoft-365-business-premium",
+        "windows-10-11-home-pro-fpp-usb-fullbox",
+        "office-2021-pro-plus-fullbox"
+      ],
+      "seo": {
+        "title": "Microsoft 365 Business Standard | Việt License",
+        "description": "Mua Microsoft 365 Business Standard chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Microsoft 365 Business Standard, bản quyền Microsoft 365 Business Standard, mua Microsoft 365 Business Standard, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Microsoft 365 Business Standard",
+      "listDescription": "Gói Microsoft 365 Business Standard 1 năm, thêm ứng dụng Office desktop bên cạnh email, cloud và cộng tác.",
+      "cardBadges": [
+        "Microsoft 365",
+        "Business Standard",
+        "1 năm"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    },
+    {
+      "id": "microsoft-365-business-premium",
+      "slug": "microsoft-365-business-premium",
+      "name": "Microsoft 365 Business Premium",
+      "category": "microsoft-365",
+      "subcategory": "Microsoft 365",
+      "shortDescription": "Gói Microsoft 365 Business Premium 1 năm, thêm bảo mật và quản lý thiết bị nâng cao cho doanh nghiệp.",
+      "price": {
+        "retail": 6500000,
+        "retailLabel": "6.500.000đ",
+        "bulk": 6390000,
+        "bulkLabel": "6.390.000đ",
+        "bulkMinQty": 5,
+        "bulkNote": "Từ 5 bản",
+        "vatNote": "Giá chưa VAT. Xuất VAT đầy đủ theo yêu cầu.",
+        "largeQtyNote": "Khách hàng lấy >30 bản vui lòng inbox VietLicense để được báo giá riêng."
+      },
+      "currency": "VND",
+      "badges": [
+        {
+          "label": "Sản phẩm chính hãng",
+          "variant": "default"
+        },
+        {
+          "label": "Microsoft 365",
+          "variant": "default"
+        },
+        {
+          "label": "Business Premium",
+          "variant": "default"
+        },
+        {
+          "label": "1 năm",
+          "variant": "default"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/optimized/office2024.png",
+          "alt": "Microsoft 365 Business Premium - hình ảnh sản phẩm",
+          "caption": "Microsoft 365 Business Premium - hình ảnh sản phẩm"
+        }
+      ],
+      "thumbnail": "/images/optimized/office2024.png",
+      "licenseType": "Microsoft 365 Subscription",
+      "activationType": "Khóa kích hoạt (Product Key)",
+      "deliveryType": {
+        "form": "Subscription 1 năm",
+        "physicalItems": [],
+        "digitalItems": [
+          "1 x License Microsoft 365 Business Premium thời hạn 1 năm",
+          "1 x Tài khoản/tenant hoặc hướng dẫn gán license theo nhu cầu",
+          "1 x Hướng dẫn đăng nhập và sử dụng dịch vụ",
+          "1 x Hóa đơn VAT nếu yêu cầu"
+        ],
+        "notes": [
+          "Microsoft 365 là gói thuê bao theo năm, cần gia hạn khi hết thời hạn sử dụng.",
+          "Nên xác định số lượng user và nhu cầu email, Office desktop, bảo mật trước khi chọn gói."
+        ]
+      },
+      "warranty": {
+        "duration": "1 năm",
+        "transferable": false,
+        "transferNote": "Có thể quản lý/gán license theo tenant hoặc tài khoản theo điều kiện Microsoft 365."
+      },
+      "support": {
+        "installGuide": true,
+        "activationHelp": true,
+        "upgradeConsult": true,
+        "channels": [
+          "Zalo",
+          "Hotline",
+          "Facebook",
+          "Email"
+        ],
+        "details": [
+          "Hướng dẫn cài đặt và kích hoạt từng bước.",
+          "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+          "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+        ]
+      },
+      "suitableFor": [
+        "Gói Microsoft 365 Business Premium 1 năm, thêm bảo mật và quản lý thiết bị nâng cao cho doanh nghiệp.",
+        "Doanh nghiệp nhỏ và vừa cần email, lưu trữ cloud và cộng tác trên Teams.",
+        "Đội nhóm cần license theo user, dễ quản lý và mở rộng số lượng.",
+        "Khách cần chứng từ và tư vấn triển khai Microsoft 365 rõ ràng."
+      ],
+      "highlights": [
+        {
+          "icon": "check",
+          "text": "Sản phẩm chính hãng Microsoft"
+        },
+        {
+          "icon": "check",
+          "text": "License rõ ràng, xuất VAT đầy đủ"
+        },
+        {
+          "icon": "check",
+          "text": "Ứng dụng Office desktop"
+        },
+        {
+          "icon": "check",
+          "text": "Email doanh nghiệp Exchange"
+        },
+        {
+          "icon": "check",
+          "text": "Bảo mật và quản lý thiết bị nâng cao"
+        },
+        {
+          "icon": "check",
+          "text": "Hỗ trợ kích hoạt qua Zalo"
+        }
+      ],
+      "descriptionSections": [
+        {
+          "title": "Lưu ý trước khi kích hoạt",
+          "content": "Microsoft 365 là gói thuê bao theo năm, cần gia hạn khi hết thời hạn sử dụng. Nên xác định số lượng user và nhu cầu email, Office desktop, bảo mật trước khi chọn gói.",
+          "bullets": [
+            "Microsoft 365 là gói thuê bao theo năm, cần gia hạn khi hết thời hạn sử dụng.",
+            "Nên xác định số lượng user và nhu cầu email, Office desktop, bảo mật trước khi chọn gói."
+          ]
+        },
+        {
+          "title": "Thông tin sản phẩm",
+          "content": "",
+          "specTable": [
+            {
+              "label": "Nhóm sản phẩm",
+              "value": "Microsoft 365"
+            },
+            {
+              "label": "Gói",
+              "value": "Business Premium"
+            },
+            {
+              "label": "Hình thức",
+              "value": "Subscription 1 năm"
+            },
+            {
+              "label": "Tình trạng",
+              "value": "Còn hàng · Chính hãng Microsoft"
+            },
+            {
+              "label": "Thời hạn",
+              "value": "1 năm"
+            },
+            {
+              "label": "Đổi user",
+              "value": "Theo quản trị tenant/license"
+            },
+            {
+              "label": "Hóa đơn",
+              "value": "Xuất VAT đầy đủ theo yêu cầu"
+            }
+          ]
+        },
+        {
+          "title": "Phù hợp với ai",
+          "content": "",
+          "bullets": [
+            "Gói Microsoft 365 Business Premium 1 năm, thêm bảo mật và quản lý thiết bị nâng cao cho doanh nghiệp.",
+            "Doanh nghiệp nhỏ và vừa cần email, lưu trữ cloud và cộng tác trên Teams.",
+            "Đội nhóm cần license theo user, dễ quản lý và mở rộng số lượng.",
+            "Khách cần chứng từ và tư vấn triển khai Microsoft 365 rõ ràng."
+          ]
+        },
+        {
+          "title": "Khách nhận được gì",
+          "content": "",
+          "bullets": [
+            "1 x License Microsoft 365 Business Premium thời hạn 1 năm",
+            "1 x Tài khoản/tenant hoặc hướng dẫn gán license theo nhu cầu",
+            "1 x Hướng dẫn đăng nhập và sử dụng dịch vụ",
+            "1 x Hóa đơn VAT nếu yêu cầu"
+          ]
+        },
+        {
+          "title": "Hỗ trợ sau mua",
+          "content": "",
+          "bullets": [
+            "Hướng dẫn cài đặt và kích hoạt từng bước.",
+            "Hỗ trợ xử lý sự cố kích hoạt qua Zalo.",
+            "Tư vấn nâng cấp hoặc mở rộng khi cần thêm thiết bị."
+          ]
+        },
+        {
+          "title": "Chính sách hỗ trợ",
+          "content": "",
+          "bullets": [
+            "Sản phẩm chính hãng Microsoft, license rõ ràng.",
+            "Xuất hóa đơn VAT đầy đủ theo yêu cầu.",
+            "Tư vấn chọn đúng phiên bản theo nhu cầu sử dụng.",
+            "Hỗ trợ kích hoạt và hướng dẫn sử dụng sau mua."
+          ]
+        }
+      ],
+      "specifications": [
+        {
+          "label": "Nhóm sản phẩm",
+          "value": "Microsoft 365"
+        },
+        {
+          "label": "Gói",
+          "value": "Business Premium"
+        },
+        {
+          "label": "Hình thức",
+          "value": "Subscription 1 năm"
+        },
+        {
+          "label": "Tình trạng",
+          "value": "Còn hàng · Chính hãng Microsoft"
+        },
+        {
+          "label": "Thời hạn",
+          "value": "1 năm"
+        },
+        {
+          "label": "Đổi user",
+          "value": "Theo quản trị tenant/license"
+        },
+        {
+          "label": "Hóa đơn",
+          "value": "Xuất VAT đầy đủ theo yêu cầu"
+        }
+      ],
+      "faqs": [],
+      "relatedProductSlugs": [
+        "microsoft-365-business-basic",
+        "microsoft-365-business-standard",
+        "windows-10-11-home-pro-fpp-usb-fullbox",
+        "office-2021-pro-plus-fullbox"
+      ],
+      "seo": {
+        "title": "Microsoft 365 Business Premium | Việt License",
+        "description": "Mua Microsoft 365 Business Premium chính hãng tại Việt License. License rõ ràng, xuất VAT đầy đủ, hỗ trợ cài đặt và kích hoạt qua Zalo.",
+        "keywords": "Microsoft 365 Business Premium, bản quyền Microsoft 365 Business Premium, mua Microsoft 365 Business Premium, license Microsoft, VietLicense"
+      },
+      "cta": {
+        "primary": {
+          "label": "Chốt đơn qua Zalo",
+          "href": "https://zalo.me/0382520281",
+          "channel": "zalo"
+        },
+        "secondary": {
+          "label": "Gọi hotline",
+          "href": "tel:0382520281",
+          "channel": "phone"
+        },
+        "contacts": [
+          {
+            "channel": "zalo",
+            "name": "Thành Nguyễn - VietLicense",
+            "href": "https://zalo.me/0382520281"
+          },
+          {
+            "channel": "facebook",
+            "name": "Việt License - Oliu Group",
+            "href": "https://facebook.com/vietlicense"
+          },
+          {
+            "channel": "phone",
+            "name": "Hotline: 0382 520 281",
+            "href": "tel:0382520281"
+          }
+        ],
+        "trustBadges": [
+          "Xuất hóa đơn VAT đầy đủ",
+          "License rõ ràng"
+        ]
+      },
+      "originalPrice": null,
+      "listTitle": "Microsoft 365 Business Premium",
+      "listDescription": "Gói Microsoft 365 Business Premium 1 năm, thêm bảo mật và quản lý thiết bị nâng cao cho doanh nghiệp.",
+      "cardBadges": [
+        "Microsoft 365",
+        "Business Premium",
+        "1 năm"
+      ],
+      "isFeatured": true,
+      "displayOrder": null
+    }
+  ]
+}

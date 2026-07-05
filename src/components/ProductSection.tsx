@@ -24,7 +24,7 @@ export function ProductSection({ products }: ProductSectionProps) {
           </p>
         </div>
 
-        <div className="home-product-grid mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="home-product-grid mt-10 grid grid-cols-1 justify-items-center gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {products.map((product) => (
             <ProductCard key={product.slug} product={product} />
           ))}

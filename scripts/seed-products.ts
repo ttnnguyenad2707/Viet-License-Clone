@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI = 'mongodb+srv://trantrungnguyenad_db_user:SK7YmRPMgFmrmtfH@vietlicense.ptdfd3p.mongodb.net';
 
 if (!MONGODB_URI) {
   console.error("Missing MONGODB_URI environment variable");
@@ -143,11 +143,11 @@ async function seed() {
     await mongoose.connect(MONGODB_URI!);
     console.log("Connected to MongoDB\n");
 
-    const dataPath = path.resolve(__dirname, "../src/data/products.json");
+    const dataPath = path.resolve(__dirname, "../src/data/products.filled.json");
     const rawData = fs.readFileSync(dataPath, "utf-8");
     const { products } = JSON.parse(rawData);
 
-    console.log(`Found ${products.length} products in products.json\n`);
+    console.log(`Found ${products.length} products in products.filled.json\n`);
 
     let inserted = 0;
     let updated = 0;
