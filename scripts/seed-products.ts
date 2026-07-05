@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const MONGODB_URI = 'mongodb+srv://trantrungnguyenad_db_user:SK7YmRPMgFmrmtfH@vietlicense.ptdfd3p.mongodb.net';
+const MONGODB_URI = process.env.MONGODB_URI;
 
 if (!MONGODB_URI) {
   console.error("Missing MONGODB_URI environment variable");
