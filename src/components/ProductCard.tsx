@@ -96,12 +96,22 @@ export function ProductCard({ product }: ProductCardProps) {
 
           {/* Bulk Price Pill */}
           {product.price.bulkLabel && product.price.bulkValue && (
-            <div className="flex items-center gap-2 rounded-full border border-[#bfdbfe] bg-[#f8fafc] px-3 py-1.5">
+            <div className="flex items-center gap-2 rounded-full border border-[#bfdbfe] bg-[#f8fafc] px-3 py-1.5 justify-between">
               <span className="text-xs font-medium text-[#5f6b7a]">
                 Đơn giá từ 5 sản phẩm
               </span>
               <span className="text-xs font-bold text-[#111827]">
                 {formatVND(product.price.bulkValue)}
+              </span>
+            </div>
+          )}
+          {product.price.bulkLabel && (product.price.bulkValue === null || product.price.bulkValue === undefined || product.price.bulkValue === '0') && (
+            <div className="flex items-center gap-2 rounded-full border border-[#bfdbfe] bg-[#f8fafc] px-3 py-1.5 justify-between">
+              <span className="text-xs font-medium text-[#5f6b7a]">
+              Số lượng
+              </span>
+              <span className="text-xs font-bold text-[#111827]">
+                {product.price.bulkLabel}
               </span>
             </div>
           )}
