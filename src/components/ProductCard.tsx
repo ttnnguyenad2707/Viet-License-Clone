@@ -10,7 +10,6 @@ type ProductCardProps = {
 export function ProductCard({ product }: ProductCardProps) {
   return (
     <article className="card flex flex-col rounded-[18px] border border-border bg-white text-foreground transition-shadow duration-500" style={{ boxShadow: "rgba(20, 40, 70, 0.4) 0px 8px 24px -16px" }}>
-      <Link href={product.href} className="card-link absolute inset-0 z-10" aria-label={`Xem chi tiết ${product.name}`} />
       <div className="thumb relative h-64 w-full overflow-hidden">
         <div className="pills absolute left-4 top-4 flex flex-wrap gap-2">
           {product.pills.map((pill) => (

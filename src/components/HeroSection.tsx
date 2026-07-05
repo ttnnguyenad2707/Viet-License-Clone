@@ -3,12 +3,12 @@ import { FacebookIcon, InfoIcon, ArrowUpIcon } from "./icons";
 import Link from "next/link";
 
 const heroImages = [
-  { src: "/images/hero/hero-windows-10-11.png", alt: "Windows 10/11 Home/Pro chính hãng" },
-  { src: "/images/hero/hero-office-365.png", alt: "Microsoft 365 Business bản quyền" },
-  { src: "/images/hero/hero-office-2021-pro-plus.png", alt: "Office 2021 Pro Plus chính hãng" },
-  { src: "/images/hero/hero-office-2019-pro-plus.png", alt: "Office 2019 Pro Plus chính hãng" },
-  { src: "/images/hero/hero-windows-server-2019.png", alt: "Windows Server 2016/2019 bản quyền" },
-  { src: "/images/hero/hero-sql-server-2022.png", alt: "SQL Server 2019/2022 bản quyền" },
+  { src: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783236728/hero-windows-server-2019_ttilc3.png", alt: "Windows 10/11 Home/Pro chính hãng" },
+  { src: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783236726/logo-trimmed_ntkapz.png", alt: "Microsoft 365 Business bản quyền" },
+  { src: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783236725/hero-windows-10-11_xaqebb.png", alt: "Office 2021 Pro Plus chính hãng" },
+  { src: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783236725/hero-office-2019-pro-plus_r0txky.png", alt: "Office 2019 Pro Plus chính hãng" },
+  { src: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783236724/hero-office-2021-pro-plus_ar5rlg.png", alt: "Windows Server 2016/2019 bản quyền" },
+  { src: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783236724/hero-office-365_z44f92.png", alt: "SQL Server 2019/2022 bản quyền" },
 ];
 
 export function HeroSection() {
@@ -77,9 +77,12 @@ export function HeroSection() {
         </div>
 
         <div className="hero-scroll-cue mx-auto mb-6 flex w-fit items-center gap-2 rounded-full bg-white px-4 py-2 text-xs font-medium text-foreground">
-          <ArrowUpIcon className="h-4 w-4 rotate-180" />
-          Cuộn xuống để xem sản phẩm
+          <Link href="#products" className="flex items-center gap-2">
+            <ArrowUpIcon className="h-4 w-4 rotate-180" />
+            Cuộn xuống để xem sản phẩm
+          </Link>
         </div>
+
       </div>
     </section>
   );

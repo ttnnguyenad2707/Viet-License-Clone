@@ -10,11 +10,11 @@ export function OfficeHeroSection() {
       }}
     >
       <div className="mx-auto max-w-[1440px] px-4">
-        <div className="pt-28 pb-16">
+        <div className="pt-28 pb-16 flex flex-col items-center justify-center">
           <p className="eyebrow mb-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             Danh mục Office
           </p>
-          <h1 className="display text-4xl font-semibold tracking-tight text-foreground md:text-5xl">
+          <h1 className="display text-4xl font-semibold tracking-tight text-foreground md:text-5xl text-center">
             Office &amp; Microsoft 365
             <br />
             <span
@@ -27,7 +27,7 @@ export function OfficeHeroSection() {
               chính hãng
             </span>
           </h1>
-          <p className="mt-4 max-w-2xl text-base text-muted-foreground">
+          <p className="mt-4 max-w-2xl text-base text-muted-foreground text-center">
             Office 2019/2021 Pro Plus mua một lần và Microsoft 365 Business theo subscription 1 năm. Trước khi mua, nên kiểm tra luôn mốc hỗ trợ của Office 2019/2021 để chọn đúng bản mua đứt, Office 2024 hay Basic/Standard/Premium.
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-3">

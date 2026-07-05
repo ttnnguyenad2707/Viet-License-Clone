@@ -10,11 +10,11 @@ export function WindowsHeroSection() {
       }}
     >
       <div className="mx-auto max-w-[1440px] px-4">
-        <div className="pt-28 pb-16">
+        <div className="pt-28 pb-16 flex flex-col items-center justify-center">
           <p className="eyebrow mb-4 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             Danh mục Windows
           </p>
-          <h1 className="display text-4xl font-semibold tracking-tight text-foreground md:text-5xl">
+          <h1 className="display text-4xl font-semibold tracking-tight text-foreground md:text-5xl text-center">
             Windows chính hãng
             <br />
             <span
@@ -27,7 +27,7 @@ export function WindowsHeroSection() {
               cho cá nhân &amp; SME
             </span>
           </h1>
-          <p className="mt-4 max-w-2xl text-base text-muted-foreground">
+          <p className="mt-4 max-w-2xl text-base text-muted-foreground text-center">
             Chọn Windows Home hoặc Pro phù hợp với nhu cầu sử dụng, hình thức license và khả năng nâng cấp Windows 11 của thiết bị.
           </p>
           <div className="mt-6">

@@ -1,7 +1,11 @@
 import { CompareHeroSection } from "@/components/compare/CompareHeroSection";
-import { CompareEvidenceSection } from "@/components/compare/CompareEvidenceSection";
+import { CompareEvidenceTable } from "@/components/compare/CompareEvidenceTable";
+import { CompareInfoCards } from "@/components/compare/CompareInfoCards";
+import { CompareBestValueEvidence } from "@/components/compare/CompareBestValueEvidence";
 import { CompareConclusionTable } from "@/components/compare/CompareConclusionTable";
-import { compareSources, compareConclusionRows } from "@/components/compare/data";
+import { CompareFAQSection } from "@/components/compare/CompareFAQSection";
+import { CompareCTASection } from "@/components/compare/CompareCTASection";
+import { compareRows, compareConclusionRows, compareFAQItems } from "@/components/compare/data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -14,8 +18,12 @@ export default function ComparePage() {
   return (
     <main className="min-h-screen">
       <CompareHeroSection />
-      <CompareEvidenceSection sources={compareSources} />
+      <CompareBestValueEvidence />
+      <CompareEvidenceTable rows={compareRows} />
+      <CompareInfoCards />
       <CompareConclusionTable rows={compareConclusionRows} />
+      <CompareFAQSection items={compareFAQItems} />
+      <CompareCTASection />
     </main>
   );
 }

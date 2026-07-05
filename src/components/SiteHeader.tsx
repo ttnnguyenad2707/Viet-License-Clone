@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { config } from "@/lib/config";
 
 const navLinks = [
   { href: "/", label: "Trang chủ" },
@@ -17,10 +18,10 @@ export function SiteHeader() {
       <div className="mx-auto flex h-full max-w-[1440px] items-center justify-between px-4">
         <Link href="/" className="brand" aria-label="Việt License">
           <Image
-            src="/images/logo-trimmed.png"
-            alt="Việt License"
-            width={180}
-            height={71}
+            src={config.logo.src}
+            alt={config.logo.alt}
+            width={config.logo.width}
+            height={config.logo.height}
             className="h-[46px] w-auto"
             priority
           />

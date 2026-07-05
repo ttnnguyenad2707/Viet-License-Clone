@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FacebookIcon } from "./icons";
+import { config } from "@/lib/config";
 
 const productLinks = [
   { href: "/windows", label: "Windows" },
@@ -29,7 +30,7 @@ export function SiteFooter() {
         <div className="foot-grid grid grid-cols-1 gap-10 md:grid-cols-4">
           <div className="md:col-span-1">
             <Link href="/" className="brand inline-block" aria-label="Việt License">
-              <Image src="/images/logo-trimmed.png" alt="Việt License" width={180} height={71} className="h-[46px] w-auto" />
+              <Image src={config.logo.src} alt={config.logo.alt} width={config.logo.width} height={config.logo.height} className="h-[46px] w-auto" />
             </Link>
             <p className="fdesc mt-4 text-sm text-muted-foreground">
               Windows, Office và Microsoft 365 chính hãng, hỗ trợ nhanh qua Zalo. Xuất VAT đầy đủ, license rõ ràng, tư vấn đúng nhu cầu.

@@ -51,6 +51,8 @@ export interface CompareSource {
 }
 
 export interface CompareRow {
+  image: string;
+  sku: string;
   competitor: string;
   theirPrice: string;
   vietLicensePrice: string;

@@ -1,6 +1,6 @@
-import type { CompareSource, CompareRow, CompareGroup, CompareConclusionRow, FAQItem } from "@/types/vietlicense";
+import type { CompareSource, CompareConclusionRow, FAQItem } from "@/types/vietlicense";
 
-export const compareSources: CompareSource[] = [
+export const rewriteCompareSources: CompareSource[] = [
   {
     id: "nv",
     initials: "NV",
@@ -288,209 +288,7 @@ export const compareSources: CompareSource[] = [
   },
 ];
 
-export const compareRows: CompareRow[] = [
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "Niềm Vui Nhỏ",
-    theirPrice: "99.000đ",
-    vietLicensePrice: "2.150.000đ từ 5 bản",
-    skuNote: "SKU tham chiếu",
-    signal: "Thấp hơn, thiếu hồ sơ",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "Marketplace Shopee mẫu",
-    theirPrice: "199.999đ đến 200.000đ",
-    vietLicensePrice: "2.150.000đ từ 5 bản",
-    skuNote: "SKU tham chiếu",
-    signal: "Thấp hơn, thiếu hồ sơ",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "VOZ / KeyNgon",
-    theirPrice: "239.000đ Office; 79.000đ Windows",
-    vietLicensePrice: "2.150.000đ từ 5 bản",
-    skuNote: "SKU tham chiếu",
-    signal: "Thấp hơn, thiếu hồ sơ",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "BotayIT",
-    theirPrice: "300.000đ",
-    vietLicensePrice: "2.150.000đ từ 5 bản",
-    skuNote: "SKU tham chiếu",
-    signal: "Thấp hơn, thiếu hồ sơ",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "WebBanQuyen low-price listings",
-    theirPrice: "519.000đ Office; 350.000đ Windows",
-    vietLicensePrice: "1.400.000đ từ 5 bản",
-    skuNote: "SKU tham chiếu",
-    signal: "Thấp hơn, thiếu hồ sơ",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "ITSO / Tin Học Nguyễn Tài",
-    theirPrice: "2.700.000đ",
-    vietLicensePrice: "2.550.000đ từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Cao hơn VietLicense",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "WinBanQuyen BIG SOFT",
-    theirPrice: "3.199.000đ",
-    vietLicensePrice: "2.550.000đ từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Cao hơn VietLicense",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "ShopBanQuyen / BQ Digital",
-    theirPrice: "4.800.000đ",
-    vietLicensePrice: "2.550.000đ từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Cao hơn VietLicense",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "FPS Vietnam",
-    theirPrice: "4.900.000đ",
-    vietLicensePrice: "2.550.000đ từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Cao hơn VietLicense",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "SoftVN",
-    theirPrice: "2.850.000đ/năm",
-    vietLicensePrice: "3.290.000đ/năm từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Cần kiểm điều kiện",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "Mắt Bão",
-    theirPrice: "265.000đ/user/tháng, tương đương 3.180.000đ/năm",
-    vietLicensePrice: "3.290.000đ/năm từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Cần kiểm điều kiện",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "Adtimin",
-    theirPrice: "3.228.000đ/năm",
-    vietLicensePrice: "3.290.000đ/năm từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Cần kiểm điều kiện",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "CellphoneS",
-    theirPrice: "Liên hệ / sắp về hàng",
-    vietLicensePrice: "3.290.000đ/năm từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Cần kiểm điều kiện",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "MSO.vn",
-    theirPrice: "89.000đ/user/tháng, tương đương 1.068.000đ/năm",
-    vietLicensePrice: "1.290.000đ/năm từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Benchmark đối tác",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "Pacisoft",
-    theirPrice: "4.599.000đ",
-    vietLicensePrice: "2.550.000đ từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Benchmark đối tác",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "FPT Shop",
-    theirPrice: "3.890.000đ/năm",
-    vietLicensePrice: "3.290.000đ/năm từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Retail cao",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "Phong Vũ",
-    theirPrice: "5.090.000đ",
-    vietLicensePrice: "2.550.000đ từ 5 bản",
-    skuNote: "SKU gần/trùng",
-    signal: "Retail cao",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-  
-  {
-    image: "https://res.cloudinary.com/dj4xx7efi/image/upload/v1783239553/niem-vui-nho_knyikg.jpg",
-    competitor: "HACOM",
-    theirPrice: "9.699.000đ",
-    vietLicensePrice: "2.550.000đ từ 5 bản",
-    skuNote: "SKU tham chiếu",
-    signal: "Retail cao",
-    position: "Nguồn",
-    sku: "Office 2021 Pro Plus No Box",
-  },
-];
-
-export const compareGroups: CompareGroup[] = [
-  {
-    heading: "Giá rất thấp",
-    subheading: "5 nguồn",
-    body: "Thường là key-only, forum, marketplace hoặc chưa thấy VAT/hợp đồng/bàn giao doanh nghiệp rõ trên nguồn công khai.",
-    ctaLabel: "Xem bằng chứng 20 nguồn",
-    ctaHref: "#bang-bang-chung",
-  },
-  {
-    heading: "Có chứng từ / retail",
-    subheading: "15 nguồn",
-    body: "Nhiều SKU có VAT/retail cao hơn VietLicense; trường hợp giá gần hoặc thấp hơn cần kiểm tra điều kiện VAT, Teams, khuyến mãi và số lượng.",
-    ctaLabel: "Xem bằng chứng 20 nguồn",
-    ctaHref: "#bang-bang-chung",
-  },
-];
-
-export const compareConclusionRows: CompareConclusionRow[] = [
+export const rewriteCompareConclusionRows: CompareConclusionRow[] = [
   {
     choice: "Chọn giá rất thấp",
     price: "Rẻ hơn rất sâu",
@@ -511,7 +309,7 @@ export const compareConclusionRows: CompareConclusionRow[] = [
   },
 ];
 
-export const compareFAQItems: FAQItem[] = [
+export const rewriteFAQItems: FAQItem[] = [
   {
     question: "Tại sao giá VietLicense không phải rẻ nhất?",
     answer: "VietLicense không cố rẻ nhất. Thay vào đó, VietLicense cân bằng giữa giá tốt, chứng từ VAT đầy đủ, tư vấn đúng SKU và hồ sơ Microsoft rõ ràng. Nhiều nguồn rẻ hơn rất sâu nhưng thiếu hồ sơ, không xuất VAT hoặc không rõ đối tượng sử dụng.",
@@ -527,5 +325,9 @@ export const compareFAQItems: FAQItem[] = [
   {
     question: "Có nên chọn giá rất thấp không?",
     answer: "Tuỳ trường hợp. Nếu bạn chỉ cần key cho vài người dùng và sẵn sàng tự kiểm tra chứng từ, rủi ro SKU và cách kích hoạt, các nguồn giá rất thấp có thể phù hợp. Tuy nhiên, nếu bạn cần hồ sơ doanh nghiệp, VAT đầy đủ và hỗ trợ kỹ thuật, VietLicense là lựa chọn cân bằng hơn.",
+  },
+  {
+    question: "Làm sao để đối chiếu giá với VietLicense?",
+    answer: "Gửi bảng giá bạn đang có qua Zalo (0382 520 281) hoặc inbox Facebook. VietLicense sẽ kiểm tra SKU, điều kiện VAT, số lượng và đưa ra so sánh chi tiết giữa các lựa chọn.",
   },
 ];
