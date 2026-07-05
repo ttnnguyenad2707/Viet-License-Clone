@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import connectDB from "@/lib/mongodb";
-import Product, { IProduct } from "@/models/Product";
+import Product from "@/models/Product";
 
 function normalizeProductBody(body: unknown): Record<string, unknown> {
   const data = (body as Record<string, unknown>) || {};

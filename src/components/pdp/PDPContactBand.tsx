@@ -1,11 +1,5 @@
 import Link from "next/link";
 
-type PDPSectionProps = {
-  title?: string;
-  children: React.ReactNode;
-  className?: string;
-};
-
 export function PDPContactBand({ className = "" }: { className?: string }) {
   return (
     <section className={`bg-[#0e1014] py-12 ${className}`}>

@@ -34,7 +34,7 @@ export function CompareConclusionTable({ rows }: CompareConclusionTableProps) {
             Kết luận nhanh
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">
-            Đừng hỏi "bên nào rẻ nhất". Hỏi "bên nào đủ hồ sơ để mua".
+            Đừng hỏi &quot;bên nào rẻ nhất&quot;. Hỏi &quot;bên nào đủ hồ sơ để mua&quot;.
           </p>
         </div>
 

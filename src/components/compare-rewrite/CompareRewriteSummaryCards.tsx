@@ -14,7 +14,7 @@ export function CompareRewriteSummaryCards({ rows }: CompareRewriteSummaryCardsP
             Kết luận nhanh
           </h2>
           <p className="mt-3 text-sm text-muted-foreground">
-            Đừng hỏi "bên nào rẻ nhất". Hỏi "bên nào đủ hồ sơ để mua".
+            Đừng hỏi &quot;bên nào rẻ nhất&quot;. Hỏi &quot;bên nào đủ hồ sơ để mua&quot;.
           </p>
         </div>
         <div className="grid gap-4 md:grid-cols-3">

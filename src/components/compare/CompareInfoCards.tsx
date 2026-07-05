@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import { InfoIcon, CheckCircleIcon, FileTextIcon } from "@/components/icons";
 
 export function CompareInfoCards() {

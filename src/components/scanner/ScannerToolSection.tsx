@@ -65,7 +65,7 @@ export function ScannerToolSection() {
               Nhiều máy đang dùng ổn, nhưng hồ sơ license lại chưa rõ
             </h2>
             <p className="mt-3 text-sm text-muted-foreground">
-              Trong doanh nghiệp, Windows và Office thường đến từ nhiều nguồn: máy mua sẵn, máy cũ, tiệm cài, key bàn giao rời hoặc tài khoản Microsoft 365. Khi cần kiểm kê, xuất VAT hoặc chuẩn hóa phần mềm, trạng thái "đã activated" chưa đủ để biết hồ sơ license có rõ ràng hay không.
+              Trong doanh nghiệp, Windows và Office thường đến từ nhiều nguồn: máy mua sẵn, máy cũ, tiệm cài, key bàn giao rời hoặc tài khoản Microsoft 365. Khi cần kiểm kê, xuất VAT hoặc chuẩn hóa phần mềm, trạng thái &quot;đã activated&quot; chưa đủ để biết hồ sơ license có rõ ràng hay không.
             </p>
             <ul className="mt-5 space-y-3 text-sm text-muted-foreground">
               <li className="flex gap-3">

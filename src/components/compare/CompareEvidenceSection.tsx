@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import type { CompareSource } from "@/types/vietlicense";
-import { ChevronDownIcon } from "@/components/icons";
 
 type CompareEvidenceSectionProps = {
   sources: CompareSource[];

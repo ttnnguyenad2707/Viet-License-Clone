@@ -1,21 +1,11 @@
 #!/usr/bin/env tsx
 
 import * as cheerio from "cheerio";
-import * as fs from "fs";
-import * as path from "path";
 import mongoose from "mongoose";
 import connectDB from "../src/lib/mongodb";
 import Product from "../src/models/Product";
 
 const SOURCE_URL = "https://vietlicense.org/san-pham";
-
-const IMAGE_VIDEO_FIELDS = [
-  "thumbnail",
-  "images",
-  "imageAssets",
-  "cloudinaryImages",
-  "videos",
-];
 
 function isEmpty(value: unknown): boolean {
   if (value === null || value === undefined) return true;
@@ -122,7 +112,7 @@ interface ParsedData {
   cardBadges?: string[];
 }
 
-function parsePDP(html: string, slug: string): ParsedData {
+function parsePDP(html: string): ParsedData {
   const $ = cheerio.load(html);
   const data: ParsedData = {};
 
@@ -419,7 +409,7 @@ async function enrichProduct(slug: string): Promise<EnrichResult> {
   }
 
   // Parse data
-  const parsed = parsePDP(html, slug);
+  const parsed = parsePDP(html);
   if (Object.keys(parsed).length === 0) {
     result.error = "No data extracted from HTML";
     return result;
@@ -455,11 +445,6 @@ async function enrichProduct(slug: string): Promise<EnrichResult> {
     "descriptionSections", "specifications", "faqs",
   ];
 
-  const allSeoFields = ["seo"];
-
-  const allCtaFields = ["cta"];
-
-  const allPriceFields = ["price"];
 
   const updateOps: Record<string, unknown> = {};
 

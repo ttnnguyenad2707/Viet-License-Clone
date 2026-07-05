@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { IProduct } from "@/models/Product";
@@ -179,7 +179,7 @@ export function ProductForm({ product, mode, productId }: ProductFormProps) {
   const [uploadingGallery, setUploadingGallery] = useState(false);
 
   // Basic
-  const [id, setId] = useState(product?.id || "");
+  const [id] = useState(product?.id || "");
   const [slug, setSlug] = useState(product?.slug || "");
   const [name, setName] = useState(product?.name || "");
   const [category, setCategory] = useState(product?.category || "");
@@ -223,7 +223,7 @@ export function ProductForm({ product, mode, productId }: ProductFormProps) {
     const legacy = product?.images || [];
     const legacyAssets = product?.imageAssets || [];
     if (legacy.length) {
-      return legacy.map((item, index) => ({
+      return legacy.map((item) => ({
         url: item.src,
         alt: item.alt,
         caption: item.caption,
@@ -709,6 +709,7 @@ export function ProductForm({ product, mode, productId }: ProductFormProps) {
             </div>
             {(thumbnail || thumbnailPreview) && (
               <div className="overflow-hidden rounded-md border">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={thumbnail || thumbnailPreview}
                   alt="Thumbnail preview"
@@ -753,6 +754,7 @@ export function ProductForm({ product, mode, productId }: ProductFormProps) {
                 {galleryItems.map((item, index) => (
                   <div key={index} className="space-y-2 rounded-md border p-2">
                     <div className="overflow-hidden rounded">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={item.url}
                         alt={item.alt || `Gallery image ${index + 1}`}

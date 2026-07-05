@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 type PDPSectionProps = {
   title?: string;
   children: React.ReactNode;
